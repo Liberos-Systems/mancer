@@ -69,7 +69,7 @@ jobs:
         python -m tests.e2e.utilities.log_analyzer --log-files e2e_test.log --output log_analysis_report.json --summary-only
 
     - name: Upload E2E test artifacts
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v5
       if: always()
       with:
         name: nightly-e2e-artifacts-${{ github.run_number }}
@@ -114,7 +114,7 @@ jobs:
         fi
 
     - name: Upload nightly report
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v5
       if: always()
       with:
         name: nightly-e2e-report-${{ github.run_number }}
