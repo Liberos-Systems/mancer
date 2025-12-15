@@ -157,7 +157,7 @@ jobs:
         echo "The release meets all quality, functional, and performance requirements." >> release_validation_report.md
 
     - name: Upload release validation artifacts
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v6
       with:
         name: release-validation-${{ github.run_number }}
         path: |
@@ -174,7 +174,7 @@ jobs:
         retention-days: 90
 
     - name: Upload release validation report
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v6
       with:
         name: release-validation-report
         path: release_validation_report.md
@@ -198,7 +198,7 @@ jobs:
         # Placeholder - implement actual security scanning
 
     - name: Upload security scan results
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v6
       with:
         name: security-scan-results
         path: |
