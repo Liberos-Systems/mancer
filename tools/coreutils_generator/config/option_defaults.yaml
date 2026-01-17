@@ -1,0 +1,43 @@
+defaults:
+  "--color": "auto"
+  "--block-size": "1K"
+  "--time": "mtime"
+  "--time-style": "long-iso"
+  "--format": "long"
+  "--sort": "name"
+  "--quoting-style": "literal"
+  "--indicator-style": "slash"
+  "--tabsize": "8"
+  "--files0-from": "/opt/coreutils-fixtures/data/files0.txt"
+  "-n": "10"
+  "-c": "64"
+
+commands:
+  ls:
+    "--color": "auto"
+    "--block-size": "1K"
+    "--time": "mtime"
+    "--time-style": "long-iso"
+    "--format": "long"
+    "--sort": "name"
+    "--quoting-style": "literal"
+    "--indicator-style": "slash"
+    "-T": "8"
+  wc:
+    "--files0-from": "/opt/coreutils-fixtures/data/files0.txt"
+  cat: {}
+  echo: {}
+  head:
+    "-n": "10"
+    "--lines": "10"
+    "-c": "64"
+    "--bytes": "64"
+  tail:
+    "-n": "10"
+    "--lines": "10"
+    "-c": "64"
+    "--bytes": "64"
+  grep: {}
+  sort: {}
+  uniq: {}
+

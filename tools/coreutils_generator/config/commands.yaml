@@ -1,0 +1,128 @@
+defaults:
+  working_dir: /opt/coreutils-fixtures/files
+  tiers_enabled:
+    - tier0
+    - tier1
+    - tier2
+    - tier3
+  arguments:
+    - []
+  error_arguments: []
+  popular_options: []
+  max_full_combination_options: 6
+
+commands:
+  - name: ls
+    arguments:
+      - []
+      - [/opt/coreutils-fixtures/files]
+      - [/opt/coreutils-fixtures/files/hidden]
+    error_arguments:
+      - [/opt/coreutils-fixtures/does_not_exist]
+    popular_options:
+      - [-l]
+      - [-a]
+      - [-l, -a]
+      - [-l, -h]
+    allowed_options:
+      - -l
+      - -a
+      - -h
+      - -t
+      - -r
+      - -1
+      - --color
+      - --sort
+      - --time
+      - --time-style
+      - --format
+      - --quoting-style
+      - --indicator-style
+      - --block-size
+  - name: cat
+    arguments:
+      - [/opt/coreutils-fixtures/files/file_alpha.txt]
+      - [/opt/coreutils-fixtures/files/file_numbers.txt]
+    error_arguments:
+      - [/opt/coreutils-fixtures/files/missing.txt]
+    popular_options:
+      - [-n]
+    allowed_options:
+      - -n
+      - -b
+  - name: echo
+    arguments:
+      - ["Mancer generator coreutils"]
+    popular_options:
+      - [-n]
+      - ["--help"]
+    allowed_options:
+      - -n
+  - name: wc
+    arguments:
+      - [/opt/coreutils-fixtures/files/file_numbers.txt]
+    popular_options:
+      - [-l]
+      - [-w]
+    allowed_options:
+      - -l
+      - -w
+      - -c
+      - -m
+  - name: grep
+    arguments:
+      - ["pattern", /opt/coreutils-fixtures/files/file_alpha.txt]
+      - ["line", /opt/coreutils-fixtures/files/file_numbers.txt]
+    error_arguments:
+      - ["missing", /opt/coreutils-fixtures/files/missing.txt]
+    popular_options:
+      - [-i, "pattern", /opt/coreutils-fixtures/files/file_alpha.txt]
+      - [-n, "line", /opt/coreutils-fixtures/files/file_numbers.txt]
+    allowed_options:
+      - -i
+      - -n
+      - -v
+      - -w
+      - -c
+  - name: sort
+    arguments:
+      - [/opt/coreutils-fixtures/files/file_numbers.txt]
+      - [/opt/coreutils-fixtures/files/file_alpha.txt]
+    popular_options:
+      - [-r, /opt/coreutils-fixtures/files/file_numbers.txt]
+      - [-u, /opt/coreutils-fixtures/files/file_alpha.txt]
+    allowed_options:
+      - -r
+      - -u
+      - -n
+  - name: uniq
+    arguments:
+      - [/opt/coreutils-fixtures/files/file_numbers.txt]
+      - [/opt/coreutils-fixtures/files/file_alpha.txt]
+    popular_options:
+      - [-c, /opt/coreutils-fixtures/files/file_alpha.txt]
+      - [-d, /opt/coreutils-fixtures/files/file_alpha.txt]
+    allowed_options:
+      - -c
+      - -d
+      - -u
+  - name: head
+    arguments:
+      - [/opt/coreutils-fixtures/files/file_numbers.txt]
+      - [/opt/coreutils-fixtures/files/file_alpha.txt]
+    popular_options:
+      - [-n, "10", /opt/coreutils-fixtures/files/file_numbers.txt]
+    allowed_options:
+      - -n
+      - -c
+  - name: tail
+    arguments:
+      - [/opt/coreutils-fixtures/files/file_numbers.txt]
+      - [/opt/coreutils-fixtures/files/file_alpha.txt]
+    popular_options:
+      - [-n, "10", /opt/coreutils-fixtures/files/file_numbers.txt]
+    allowed_options:
+      - -n
+      - -c
+
+
