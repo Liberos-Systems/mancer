@@ -191,5 +191,62 @@ commands:
       - -i
       - -f
       - -p
+  - name: mkdir
+    arguments:
+      - [/tmp/test_dir1]
+      - [/tmp/test_dir2]
+    error_arguments:
+      - [/root/test_dir]
+    popular_options:
+      - [-p, /tmp/test_dir/subdir]
+      - [-v, /tmp/test_dir3]
+    allowed_options:
+      - -p
+      - -v
+      - -m
+  - name: mv
+    arguments:
+      - [/opt/coreutils-fixtures/files/file_alpha.txt, /tmp/test_move.txt]
+      - [/opt/coreutils-fixtures/files/file_numbers.txt, /tmp/test_move2.txt]
+    error_arguments:
+      - [/nonexistent, /tmp/test.txt]
+    popular_options:
+      - [-v, /opt/coreutils-fixtures/files/file_alpha.txt, /tmp/test_move.txt]
+      - [-i, /opt/coreutils-fixtures/files/file_numbers.txt, /tmp/test_move2.txt]
+    allowed_options:
+      - -v
+      - -i
+      - -f
+      - -b
+  - name: rm
+    arguments:
+      - [/tmp/test_file1.txt]
+      - [/tmp/test_file2.txt]
+    error_arguments:
+      - [/nonexistent]
+    popular_options:
+      - [-v, /tmp/test_file1.txt]
+      - [-r, /tmp/test_dir]
+      - [-f, /tmp/test_file2.txt]
+    allowed_options:
+      - -v
+      - -r
+      - -f
+      - -i
+  - name: touch
+    arguments:
+      - [/tmp/test_file1.txt]
+      - [/tmp/test_file2.txt]
+    error_arguments:
+      - [/root/test_file.txt]
+    popular_options:
+      - [-c, /tmp/test_file1.txt]
+      - [-a, /tmp/test_file2.txt]
+      - [-m, /tmp/test_file1.txt]
+    allowed_options:
+      - -a
+      - -m
+      - -c
+      - -r
 
 

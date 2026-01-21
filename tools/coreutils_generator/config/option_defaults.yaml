@@ -45,4 +45,9 @@ commands:
   find: {}
   df: {}
   cp: {}
+  mkdir:
+    "-m": "755"
+  mv: {}
+  rm: {}
+  touch: {}
 
