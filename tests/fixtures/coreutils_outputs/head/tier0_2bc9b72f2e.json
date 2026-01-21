@@ -1,0 +1,23 @@
+{
+  "command": "head",
+  "tier": "tier0",
+  "scenario_id": "tier0_2bc9b72f2e",
+  "options": [
+    "--lines=10"
+  ],
+  "args": [
+    "/opt/coreutils-fixtures/files/file_numbers.txt"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "head --lines=10 /opt/coreutils-fixtures/files/file_numbers.txt",
+  "result": {
+    "exit_code": 0,
+    "stdout": "one\ntwo\nthree\nfour\nfive\n",
+    "stderr": "",
+    "duration_ms": 540.8996109999862
+  },
+  "generated_at": "2026-01-21T06:55:54.216134Z"
+}

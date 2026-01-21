@@ -1,0 +1,23 @@
+{
+  "command": "cat",
+  "tier": "tier0",
+  "scenario_id": "tier0_a2ff2f3125",
+  "options": [
+    "--show-ends"
+  ],
+  "args": [
+    "/opt/coreutils-fixtures/files/file_alpha.txt"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "cat --show-ends /opt/coreutils-fixtures/files/file_alpha.txt",
+  "result": {
+    "exit_code": 0,
+    "stdout": "alpha$\nbeta$\ngamma$\n",
+    "stderr": "",
+    "duration_ms": 529.4178050007758
+  },
+  "generated_at": "2026-01-21T06:54:58.306987Z"
+}

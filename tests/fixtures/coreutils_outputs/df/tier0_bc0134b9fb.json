@@ -1,0 +1,21 @@
+{
+  "command": "df",
+  "tier": "tier0",
+  "scenario_id": "tier0_bc0134b9fb",
+  "options": [
+    "-i"
+  ],
+  "args": [],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "df -i",
+  "result": {
+    "exit_code": 0,
+    "stdout": "Filesystem       Inodes   IUsed    IFree IUse% Mounted on\noverlay        31227904 4557645 26670259   15% /\ntmpfs           4092388      16  4092372    1% /dev\nshm             4092388       1  4092387    1% /dev/shm\n/dev/sda2      31227904 4557645 26670259   15% /etc/hosts\ntmpfs           4092388       1  4092387    1% /proc/acpi\ntmpfs           4092388       1  4092387    1% /proc/asound\ntmpfs           4092388       1  4092387    1% /proc/scsi\ntmpfs           4092388       1  4092387    1% /sys/devices/virtual/powercap\ntmpfs           4092388       1  4092387    1% /sys/firmware\ntmpfs           4092388       1  4092387    1% /sys/devices/system/cpu/cpu0/thermal_throttle\ntmpfs           4092388       1  4092387    1% /sys/devices/system/cpu/cpu1/thermal_throttle\ntmpfs           4092388       1  4092387    1% /sys/devices/system/cpu/cpu2/thermal_throttle\ntmpfs           4092388       1  4092387    1% /sys/devices/system/cpu/cpu3/thermal_throttle\ntmpfs           4092388       1  4092387    1% /sys/devices/system/cpu/cpu4/thermal_throttle\ntmpfs           4092388       1  4092387    1% /sys/devices/system/cpu/cpu5/thermal_throttle\ntmpfs           4092388       1  4092387    1% /sys/devices/system/cpu/cpu6/thermal_throttle\ntmpfs           4092388       1  4092387    1% /sys/devices/system/cpu/cpu7/thermal_throttle\n",
+    "stderr": "",
+    "duration_ms": 537.8283399986685
+  },
+  "generated_at": "2026-01-21T11:17:01.298348Z"
+}

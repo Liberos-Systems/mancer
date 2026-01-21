@@ -1,0 +1,23 @@
+{
+  "command": "ls",
+  "tier": "tier0",
+  "scenario_id": "tier0_a3aafba46b",
+  "options": [
+    "-a"
+  ],
+  "args": [
+    "/opt/coreutils-fixtures/files/hidden"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "ls -a /opt/coreutils-fixtures/files/hidden",
+  "result": {
+    "exit_code": 0,
+    "stdout": ".\n..\n.secret\n",
+    "stderr": "",
+    "duration_ms": 520.4418949997489
+  },
+  "generated_at": "2026-01-21T06:54:31.685574Z"
+}

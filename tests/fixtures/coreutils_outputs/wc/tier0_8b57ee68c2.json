@@ -1,0 +1,23 @@
+{
+  "command": "wc",
+  "tier": "tier0",
+  "scenario_id": "tier0_8b57ee68c2",
+  "options": [
+    "-c"
+  ],
+  "args": [
+    "/opt/coreutils-fixtures/files/file_numbers.txt"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "wc -c /opt/coreutils-fixtures/files/file_numbers.txt",
+  "result": {
+    "exit_code": 0,
+    "stdout": "24 /opt/coreutils-fixtures/files/file_numbers.txt\n",
+    "stderr": "",
+    "duration_ms": 477.84673099977226
+  },
+  "generated_at": "2026-01-21T06:55:07.205153Z"
+}

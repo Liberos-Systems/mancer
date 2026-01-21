@@ -1,0 +1,121 @@
+[
+  {
+    "command": "ps",
+    "options": [],
+    "args": [],
+    "tier": "tier0",
+    "scenario_id": "tier0_c67f1ee178",
+    "metadata": {}
+  },
+  {
+    "command": "ps",
+    "options": [
+      "-A"
+    ],
+    "args": [],
+    "tier": "tier0",
+    "scenario_id": "tier0_7640e1a509",
+    "metadata": {}
+  },
+  {
+    "command": "ps",
+    "options": [
+      "-a"
+    ],
+    "args": [],
+    "tier": "tier0",
+    "scenario_id": "tier0_5082688a2f",
+    "metadata": {}
+  },
+  {
+    "command": "ps",
+    "options": [
+      "-d"
+    ],
+    "args": [],
+    "tier": "tier0",
+    "scenario_id": "tier0_4d9ed4db70",
+    "metadata": {}
+  },
+  {
+    "command": "ps",
+    "options": [
+      "--deselect"
+    ],
+    "args": [],
+    "tier": "tier0",
+    "scenario_id": "tier0_85467e1edc",
+    "metadata": {}
+  },
+  {
+    "command": "ps",
+    "options": [
+      "-e"
+    ],
+    "args": [],
+    "tier": "tier0",
+    "scenario_id": "tier0_4880d2df99",
+    "metadata": {}
+  },
+  {
+    "command": "ps",
+    "options": [
+      "-N"
+    ],
+    "args": [],
+    "tier": "tier0",
+    "scenario_id": "tier0_c987501fc2",
+    "metadata": {}
+  },
+  {
+    "command": "ps",
+    "options": [
+      "-123"
+    ],
+    "args": [],
+    "tier": "tier0",
+    "scenario_id": "tier0_d6cd4a3774",
+    "metadata": {}
+  },
+  {
+    "command": "ps",
+    "options": [
+      "--quick-pid"
+    ],
+    "args": [],
+    "tier": "tier0",
+    "scenario_id": "tier0_96bffbb724",
+    "metadata": {}
+  },
+  {
+    "command": "ps",
+    "options": [
+      "-e"
+    ],
+    "args": [],
+    "tier": "tier1",
+    "scenario_id": "tier1_4880d2df99",
+    "metadata": {}
+  },
+  {
+    "command": "ps",
+    "options": [
+      "-f"
+    ],
+    "args": [],
+    "tier": "tier1",
+    "scenario_id": "tier1_8278f98b90",
+    "metadata": {}
+  },
+  {
+    "command": "ps",
+    "options": [
+      "-u",
+      "root"
+    ],
+    "args": [],
+    "tier": "tier1",
+    "scenario_id": "tier1_71793709cf",
+    "metadata": {}
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "command": "sort",
+  "tier": "tier0",
+  "scenario_id": "tier0_2ecc4eb137",
+  "options": [
+    "-b"
+  ],
+  "args": [
+    "/opt/coreutils-fixtures/files/file_numbers.txt"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "sort -b /opt/coreutils-fixtures/files/file_numbers.txt",
+  "result": {
+    "exit_code": 0,
+    "stdout": "five\nfour\none\nthree\ntwo\n",
+    "stderr": "",
+    "duration_ms": 558.8501800002632
+  },
+  "generated_at": "2026-01-21T06:55:26.914151Z"
+}

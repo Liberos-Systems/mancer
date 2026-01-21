@@ -1,0 +1,25 @@
+{
+  "command": "find",
+  "tier": "tier1",
+  "scenario_id": "tier1_4ab16be988",
+  "options": [
+    "/opt/coreutils-fixtures/files",
+    "-name",
+    "*.txt"
+  ],
+  "args": [
+    "/opt/coreutils-fixtures/files"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "find /opt/coreutils-fixtures/files -name '*.txt' /opt/coreutils-fixtures/files",
+  "result": {
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "find: paths must precede expression: `/opt/coreutils-fixtures/files'\nfind: possible unquoted pattern after predicate `-name'?\n",
+    "duration_ms": 684.9701849969279
+  },
+  "generated_at": "2026-01-21T11:16:49.062269Z"
+}

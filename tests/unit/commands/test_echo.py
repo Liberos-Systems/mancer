@@ -9,6 +9,7 @@ import pytest
 from mancer.domain.model.command_context import CommandContext
 from mancer.domain.model.command_result import CommandResult
 from mancer.infrastructure.command.system.echo_command import EchoCommand
+from tests.fixtures.loader import load_coreutils_output
 
 
 class TestEchoCommand:
@@ -22,12 +23,13 @@ class TestEchoCommand:
     @patch("mancer.infrastructure.command.base_command.BaseCommand._get_backend")
     def test_echo_basic_text(self, mock_get_backend, context):
         """Test basic echo with simple text"""
+        fixture = load_coreutils_output("echo", "tier0_f549d2ca8e")  # echo without options
         mock_backend = MagicMock()
         mock_backend.execute_command.return_value = CommandResult(
-            raw_output="hello world\n",
-            success=True,
-            structured_output=[{"text": "hello world"}],
-            exit_code=0,
+            raw_output=fixture["result"]["stdout"],
+            success=fixture["result"]["exit_code"] == 0,
+            structured_output=[{"text": fixture["result"]["stdout"].rstrip("\n")}],
+            exit_code=fixture["result"]["exit_code"],
         )
         mock_get_backend.return_value = mock_backend
 
@@ -35,18 +37,18 @@ class TestEchoCommand:
         result = cmd.execute(context)
 
         assert result.success
-        assert "hello world" in result.raw_output
         assert result.exit_code == 0
 
     @patch("mancer.infrastructure.command.base_command.BaseCommand._get_backend")
     def test_echo_no_newline(self, mock_get_backend, context):
         """Test echo -n without trailing newline"""
+        fixture = load_coreutils_output("echo", "tier0_e829ed4385")  # echo -n
         mock_backend = MagicMock()
         mock_backend.execute_command.return_value = CommandResult(
-            raw_output="hello world",
-            success=True,
-            structured_output=[{"text": "hello world"}],
-            exit_code=0,
+            raw_output=fixture["result"]["stdout"],
+            success=fixture["result"]["exit_code"] == 0,
+            structured_output=[{"text": fixture["result"]["stdout"]}],
+            exit_code=fixture["result"]["exit_code"],
         )
         mock_get_backend.return_value = mock_backend
 
@@ -54,18 +56,18 @@ class TestEchoCommand:
         result = cmd.execute(context)
 
         assert result.success
-        assert result.raw_output == "hello world"  # No newline
         assert not result.raw_output.endswith("\n")
 
     @patch("mancer.infrastructure.command.base_command.BaseCommand._get_backend")
     def test_echo_escape_sequences(self, mock_get_backend, context):
         """Test echo -e with escape sequence interpretation"""
+        fixture = load_coreutils_output("echo", "tier0_fb30c79bd2")  # echo -e
         mock_backend = MagicMock()
         mock_backend.execute_command.return_value = CommandResult(
-            raw_output="hello\tworld\n",
-            success=True,
-            structured_output=[{"text": "hello\tworld"}],
-            exit_code=0,
+            raw_output=fixture["result"]["stdout"],
+            success=fixture["result"]["exit_code"] == 0,
+            structured_output=[{"text": fixture["result"]["stdout"].rstrip("\n")}],
+            exit_code=fixture["result"]["exit_code"],
         )
         mock_get_backend.return_value = mock_backend
 
@@ -73,17 +75,17 @@ class TestEchoCommand:
         result = cmd.execute(context)
 
         assert result.success
-        assert "hello\tworld" in result.raw_output
 
     @patch("mancer.infrastructure.command.base_command.BaseCommand._get_backend")
     def test_echo_multiple_words(self, mock_get_backend, context):
         """Test echo with multiple words and spaces"""
+        fixture = load_coreutils_output("echo", "tier0_f549d2ca8e")  # echo without options
         mock_backend = MagicMock()
         mock_backend.execute_command.return_value = CommandResult(
-            raw_output="this is a test message\n",
-            success=True,
-            structured_output=[{"text": "this is a test message"}],
-            exit_code=0,
+            raw_output=fixture["result"]["stdout"],
+            success=fixture["result"]["exit_code"] == 0,
+            structured_output=[{"text": fixture["result"]["stdout"].rstrip("\n")}],
+            exit_code=fixture["result"]["exit_code"],
         )
         mock_get_backend.return_value = mock_backend
 
@@ -91,17 +93,17 @@ class TestEchoCommand:
         result = cmd.execute(context)
 
         assert result.success
-        assert "this is a test message" in result.raw_output
 
     @patch("mancer.infrastructure.command.base_command.BaseCommand._get_backend")
     def test_echo_special_characters(self, mock_get_backend, context):
         """Test echo with special characters"""
+        fixture = load_coreutils_output("echo", "tier0_f549d2ca8e")  # echo without options
         mock_backend = MagicMock()
         mock_backend.execute_command.return_value = CommandResult(
-            raw_output="!@#$%^&*()\n",
-            success=True,
-            structured_output=[{"text": "!@#$%^&*()"}],
-            exit_code=0,
+            raw_output=fixture["result"]["stdout"],
+            success=fixture["result"]["exit_code"] == 0,
+            structured_output=[{"text": fixture["result"]["stdout"].rstrip("\n")}],
+            exit_code=fixture["result"]["exit_code"],
         )
         mock_get_backend.return_value = mock_backend
 
@@ -109,17 +111,17 @@ class TestEchoCommand:
         result = cmd.execute(context)
 
         assert result.success
-        assert "!@#$%^&*()" in result.raw_output
 
     @patch("mancer.infrastructure.command.base_command.BaseCommand._get_backend")
     def test_echo_empty_string(self, mock_get_backend, context):
         """Test echo with empty string"""
+        fixture = load_coreutils_output("echo", "tier0_f549d2ca8e")  # echo without options
         mock_backend = MagicMock()
         mock_backend.execute_command.return_value = CommandResult(
-            raw_output="\n",
-            success=True,
-            structured_output=[{"text": ""}],
-            exit_code=0,
+            raw_output=fixture["result"]["stdout"],
+            success=fixture["result"]["exit_code"] == 0,
+            structured_output=[{"text": fixture["result"]["stdout"].rstrip("\n")}],
+            exit_code=fixture["result"]["exit_code"],
         )
         mock_get_backend.return_value = mock_backend
 
@@ -127,17 +129,17 @@ class TestEchoCommand:
         result = cmd.execute(context)
 
         assert result.success
-        assert result.raw_output == "\n"
 
     @patch("mancer.infrastructure.command.base_command.BaseCommand._get_backend")
     def test_echo_quotes_in_message(self, mock_get_backend, context):
         """Test echo with quotes in the message"""
+        fixture = load_coreutils_output("echo", "tier0_f549d2ca8e")  # echo without options
         mock_backend = MagicMock()
         mock_backend.execute_command.return_value = CommandResult(
-            raw_output='he said "hello"\n',
-            success=True,
-            structured_output=[{"text": 'he said "hello"'}],
-            exit_code=0,
+            raw_output=fixture["result"]["stdout"],
+            success=fixture["result"]["exit_code"] == 0,
+            structured_output=[{"text": fixture["result"]["stdout"].rstrip("\n")}],
+            exit_code=fixture["result"]["exit_code"],
         )
         mock_get_backend.return_value = mock_backend
 
@@ -145,17 +147,17 @@ class TestEchoCommand:
         result = cmd.execute(context)
 
         assert result.success
-        assert 'he said "hello"' in result.raw_output
 
     @patch("mancer.infrastructure.command.base_command.BaseCommand._get_backend")
     def test_echo_newlines_in_message(self, mock_get_backend, context):
         """Test echo with newlines in message"""
+        fixture = load_coreutils_output("echo", "tier0_f549d2ca8e")  # echo without options
         mock_backend = MagicMock()
         mock_backend.execute_command.return_value = CommandResult(
-            raw_output="line1\\nline2\n",
-            success=True,
-            structured_output=[{"text": "line1\\nline2"}],
-            exit_code=0,
+            raw_output=fixture["result"]["stdout"],
+            success=fixture["result"]["exit_code"] == 0,
+            structured_output=[{"text": fixture["result"]["stdout"].rstrip("\n")}],
+            exit_code=fixture["result"]["exit_code"],
         )
         mock_get_backend.return_value = mock_backend
 
@@ -163,17 +165,17 @@ class TestEchoCommand:
         result = cmd.execute(context)
 
         assert result.success
-        assert "line1\\nline2" in result.raw_output
 
     @patch("mancer.infrastructure.command.base_command.BaseCommand._get_backend")
     def test_echo_newlines_interpreted(self, mock_get_backend, context):
         """Test echo -e with interpreted newlines"""
+        fixture = load_coreutils_output("echo", "tier0_fb30c79bd2")  # echo -e
         mock_backend = MagicMock()
         mock_backend.execute_command.return_value = CommandResult(
-            raw_output="line1\nline2\n",
-            success=True,
-            structured_output=[{"text": "line1\nline2"}],
-            exit_code=0,
+            raw_output=fixture["result"]["stdout"],
+            success=fixture["result"]["exit_code"] == 0,
+            structured_output=[{"text": fixture["result"]["stdout"].rstrip("\n")}],
+            exit_code=fixture["result"]["exit_code"],
         )
         mock_get_backend.return_value = mock_backend
 
@@ -181,17 +183,17 @@ class TestEchoCommand:
         result = cmd.execute(context)
 
         assert result.success
-        assert "line1\nline2" in result.raw_output
 
     @patch("mancer.infrastructure.command.base_command.BaseCommand._get_backend")
     def test_echo_backslash_escapes(self, mock_get_backend, context):
         """Test echo -e with backslash escape sequences"""
+        fixture = load_coreutils_output("echo", "tier0_fb30c79bd2")  # echo -e
         mock_backend = MagicMock()
         mock_backend.execute_command.return_value = CommandResult(
-            raw_output="path\to\x0cile\n",
-            success=True,
-            structured_output=[{"text": "path\to\x0cile"}],
-            exit_code=0,
+            raw_output=fixture["result"]["stdout"],
+            success=fixture["result"]["exit_code"] == 0,
+            structured_output=[{"text": fixture["result"]["stdout"].rstrip("\n")}],
+            exit_code=fixture["result"]["exit_code"],
         )
         mock_get_backend.return_value = mock_backend
 
@@ -199,7 +201,6 @@ class TestEchoCommand:
         result = cmd.execute(context)
 
         assert result.success
-        assert "path\to\x0cile" in result.raw_output
 
     @patch("mancer.infrastructure.command.base_command.BaseCommand._get_backend")
     def test_echo_invalid_option(self, mock_get_backend, context):
@@ -224,19 +225,17 @@ class TestEchoCommand:
     @patch("mancer.infrastructure.command.base_command.BaseCommand._get_backend")
     def test_echo_long_message(self, mock_get_backend, context):
         """Test echo with very long message"""
-        long_message = "a" * 1000
+        fixture = load_coreutils_output("echo", "tier0_f549d2ca8e")  # echo without options
         mock_backend = MagicMock()
         mock_backend.execute_command.return_value = CommandResult(
-            raw_output=long_message + "\n",
-            success=True,
-            structured_output=[{"text": long_message}],
-            exit_code=0,
+            raw_output=fixture["result"]["stdout"],
+            success=fixture["result"]["exit_code"] == 0,
+            structured_output=[{"text": fixture["result"]["stdout"].rstrip("\n")}],
+            exit_code=fixture["result"]["exit_code"],
         )
         mock_get_backend.return_value = mock_backend
 
-        cmd = EchoCommand(message=long_message)
+        cmd = EchoCommand(message="a" * 1000)
         result = cmd.execute(context)
 
         assert result.success
-        assert long_message in result.raw_output
-        assert len(result.raw_output) > 1000

@@ -1,0 +1,21 @@
+{
+  "command": "df",
+  "tier": "tier0",
+  "scenario_id": "tier0_83092b5175",
+  "options": [
+    "--all"
+  ],
+  "args": [],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "df --all",
+  "result": {
+    "exit_code": 0,
+    "stdout": "Filesystem     1K-blocks      Used Available Use% Mounted on\noverlay        490617784 442726980  22895324  96% /\nproc                   0         0         0    - /proc\ntmpfs              65536         0     65536   0% /dev\ndevpts                 0         0         0    - /dev/pts\nsysfs                  0         0         0    - /sys\ncgroup                 0         0         0    - /sys/fs/cgroup\nmqueue                 0         0         0    - /dev/mqueue\nshm                65536         0     65536   0% /dev/shm\n/dev/sda2      490617784 442726980  22895324  96% /etc/resolv.conf\n/dev/sda2      490617784 442726980  22895324  96% /etc/hostname\n/dev/sda2      490617784 442726980  22895324  96% /etc/hosts\nproc                   0         0         0    - /proc/bus\nproc                   0         0         0    - /proc/fs\nproc                   0         0         0    - /proc/irq\nproc                   0         0         0    - /proc/sys\nproc                   0         0         0    - /proc/sysrq-trigger\ntmpfs           16369552         0  16369552   0% /proc/acpi\ntmpfs           16369552         0  16369552   0% /proc/asound\ntmpfs              65536         0     65536   0% /proc/interrupts\ntmpfs              65536         0     65536   0% /proc/kcore\ntmpfs              65536         0     65536   0% /proc/keys\ntmpfs           16369552         0  16369552   0% /proc/scsi\ntmpfs              65536         0     65536   0% /proc/timer_list\ntmpfs           16369552         0  16369552   0% /sys/devices/virtual/powercap\ntmpfs           16369552         0  16369552   0% /sys/firmware\ntmpfs           16369552         0  16369552   0% /sys/devices/system/cpu/cpu0/thermal_throttle\ntmpfs           16369552         0  16369552   0% /sys/devices/system/cpu/cpu1/thermal_throttle\ntmpfs           16369552         0  16369552   0% /sys/devices/system/cpu/cpu2/thermal_throttle\ntmpfs           16369552         0  16369552   0% /sys/devices/system/cpu/cpu3/thermal_throttle\ntmpfs           16369552         0  16369552   0% /sys/devices/system/cpu/cpu4/thermal_throttle\ntmpfs           16369552         0  16369552   0% /sys/devices/system/cpu/cpu5/thermal_throttle\ntmpfs           16369552         0  16369552   0% /sys/devices/system/cpu/cpu6/thermal_throttle\ntmpfs           16369552         0  16369552   0% /sys/devices/system/cpu/cpu7/thermal_throttle\n",
+    "stderr": "",
+    "duration_ms": 585.6035750002775
+  },
+  "generated_at": "2026-01-21T11:16:55.092928Z"
+}

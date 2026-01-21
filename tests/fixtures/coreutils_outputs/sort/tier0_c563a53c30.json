@@ -1,0 +1,23 @@
+{
+  "command": "sort",
+  "tier": "tier0",
+  "scenario_id": "tier0_c563a53c30",
+  "options": [
+    "--dictionary-order"
+  ],
+  "args": [
+    "/opt/coreutils-fixtures/files/file_alpha.txt"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "sort --dictionary-order /opt/coreutils-fixtures/files/file_alpha.txt",
+  "result": {
+    "exit_code": 0,
+    "stdout": "alpha\nbeta\ngamma\n",
+    "stderr": "",
+    "duration_ms": 527.1204159998888
+  },
+  "generated_at": "2026-01-21T06:55:30.636725Z"
+}

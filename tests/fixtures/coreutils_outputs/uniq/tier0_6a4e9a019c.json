@@ -1,0 +1,23 @@
+{
+  "command": "uniq",
+  "tier": "tier0",
+  "scenario_id": "tier0_6a4e9a019c",
+  "options": [
+    "-d"
+  ],
+  "args": [
+    "/opt/coreutils-fixtures/files/file_numbers.txt"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "uniq -d /opt/coreutils-fixtures/files/file_numbers.txt",
+  "result": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "",
+    "duration_ms": 558.1178350003029
+  },
+  "generated_at": "2026-01-21T06:55:41.162003Z"
+}

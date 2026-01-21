@@ -1,0 +1,21 @@
+{
+  "command": "ls",
+  "tier": "tier0",
+  "scenario_id": "tier0_b7cea49754",
+  "options": [
+    "-A"
+  ],
+  "args": [],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "ls -A",
+  "result": {
+    "exit_code": 0,
+    "stdout": "binary.dat\nempty.txt\nempty_dir\nfile_alpha.txt\nfile_numbers.txt\nhidden\nsymlinks\n",
+    "stderr": "",
+    "duration_ms": 525.4959530002452
+  },
+  "generated_at": "2026-01-21T06:54:33.872922Z"
+}

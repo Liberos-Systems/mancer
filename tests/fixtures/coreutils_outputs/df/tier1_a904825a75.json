@@ -1,0 +1,21 @@
+{
+  "command": "df",
+  "tier": "tier1",
+  "scenario_id": "tier1_a904825a75",
+  "options": [
+    "-T"
+  ],
+  "args": [],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "df -T",
+  "result": {
+    "exit_code": 0,
+    "stdout": "Filesystem     Type    1K-blocks      Used Available Use% Mounted on\noverlay        overlay 490617784 442727200  22895104  96% /\ntmpfs          tmpfs       65536         0     65536   0% /dev\nshm            tmpfs       65536         0     65536   0% /dev/shm\n/dev/sda2      ext4    490617784 442727200  22895104  96% /etc/hosts\ntmpfs          tmpfs    16369552         0  16369552   0% /proc/acpi\ntmpfs          tmpfs    16369552         0  16369552   0% /proc/asound\ntmpfs          tmpfs    16369552         0  16369552   0% /proc/scsi\ntmpfs          tmpfs    16369552         0  16369552   0% /sys/devices/virtual/powercap\ntmpfs          tmpfs    16369552         0  16369552   0% /sys/firmware\ntmpfs          tmpfs    16369552         0  16369552   0% /sys/devices/system/cpu/cpu0/thermal_throttle\ntmpfs          tmpfs    16369552         0  16369552   0% /sys/devices/system/cpu/cpu1/thermal_throttle\ntmpfs          tmpfs    16369552         0  16369552   0% /sys/devices/system/cpu/cpu2/thermal_throttle\ntmpfs          tmpfs    16369552         0  16369552   0% /sys/devices/system/cpu/cpu3/thermal_throttle\ntmpfs          tmpfs    16369552         0  16369552   0% /sys/devices/system/cpu/cpu4/thermal_throttle\ntmpfs          tmpfs    16369552         0  16369552   0% /sys/devices/system/cpu/cpu5/thermal_throttle\ntmpfs          tmpfs    16369552         0  16369552   0% /sys/devices/system/cpu/cpu6/thermal_throttle\ntmpfs          tmpfs    16369552         0  16369552   0% /sys/devices/system/cpu/cpu7/thermal_throttle\n",
+    "stderr": "",
+    "duration_ms": 543.1247180022183
+  },
+  "generated_at": "2026-01-21T11:17:05.181944Z"
+}

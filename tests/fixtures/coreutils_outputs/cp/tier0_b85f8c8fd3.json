@@ -1,0 +1,22 @@
+{
+  "command": "cp",
+  "tier": "tier0",
+  "scenario_id": "tier0_b85f8c8fd3",
+  "options": [],
+  "args": [
+    "/opt/coreutils-fixtures/files/file_alpha.txt",
+    "/tmp/test_copy.txt"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "cp /opt/coreutils-fixtures/files/file_alpha.txt /tmp/test_copy.txt",
+  "result": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "",
+    "duration_ms": 706.3923759997124
+  },
+  "generated_at": "2026-01-21T11:17:07.203054Z"
+}

@@ -1,0 +1,292 @@
+[
+  {
+    "command": "rm",
+    "options": [],
+    "args": [
+      "/tmp/test_file1.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_7796847894",
+    "metadata": {}
+  },
+  {
+    "command": "rm",
+    "options": [],
+    "args": [
+      "/tmp/test_file2.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_a1e7366131",
+    "metadata": {}
+  },
+  {
+    "command": "rm",
+    "options": [
+      "-f"
+    ],
+    "args": [
+      "/tmp/test_file1.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_6994359b10",
+    "metadata": {}
+  },
+  {
+    "command": "rm",
+    "options": [
+      "-f"
+    ],
+    "args": [
+      "/tmp/test_file2.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_ddbdefe730",
+    "metadata": {}
+  },
+  {
+    "command": "rm",
+    "options": [
+      "--force"
+    ],
+    "args": [
+      "/tmp/test_file1.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_03489d1632",
+    "metadata": {}
+  },
+  {
+    "command": "rm",
+    "options": [
+      "--force"
+    ],
+    "args": [
+      "/tmp/test_file2.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_b10fdc30e1",
+    "metadata": {}
+  },
+  {
+    "command": "rm",
+    "options": [
+      "-i"
+    ],
+    "args": [
+      "/tmp/test_file1.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_3e2e94529c",
+    "metadata": {}
+  },
+  {
+    "command": "rm",
+    "options": [
+      "-i"
+    ],
+    "args": [
+      "/tmp/test_file2.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_24fb292fe9",
+    "metadata": {}
+  },
+  {
+    "command": "rm",
+    "options": [
+      "-I"
+    ],
+    "args": [
+      "/tmp/test_file1.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_9b4e2414dc",
+    "metadata": {}
+  },
+  {
+    "command": "rm",
+    "options": [
+      "-I"
+    ],
+    "args": [
+      "/tmp/test_file2.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_454514fe29",
+    "metadata": {}
+  },
+  {
+    "command": "rm",
+    "options": [
+      "--one-file-system"
+    ],
+    "args": [
+      "/tmp/test_file1.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_78d2c8f742",
+    "metadata": {}
+  },
+  {
+    "command": "rm",
+    "options": [
+      "--one-file-system"
+    ],
+    "args": [
+      "/tmp/test_file2.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_da78a2c2d3",
+    "metadata": {}
+  },
+  {
+    "command": "rm",
+    "options": [
+      "--no-preserve-root"
+    ],
+    "args": [
+      "/tmp/test_file1.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_e2442309df",
+    "metadata": {}
+  },
+  {
+    "command": "rm",
+    "options": [
+      "--no-preserve-root"
+    ],
+    "args": [
+      "/tmp/test_file2.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_b50113d577",
+    "metadata": {}
+  },
+  {
+    "command": "rm",
+    "options": [
+      "--preserve-root"
+    ],
+    "args": [
+      "/tmp/test_file1.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_bd9b9368ec",
+    "metadata": {}
+  },
+  {
+    "command": "rm",
+    "options": [
+      "--preserve-root"
+    ],
+    "args": [
+      "/tmp/test_file2.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_6c3df4710b",
+    "metadata": {}
+  },
+  {
+    "command": "rm",
+    "options": [
+      "-r"
+    ],
+    "args": [
+      "/tmp/test_file1.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_101eb6c7fe",
+    "metadata": {}
+  },
+  {
+    "command": "rm",
+    "options": [
+      "-r"
+    ],
+    "args": [
+      "/tmp/test_file2.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_3676bd1005",
+    "metadata": {}
+  },
+  {
+    "command": "rm",
+    "options": [
+      "-v",
+      "/tmp/test_file1.txt"
+    ],
+    "args": [
+      "/tmp/test_file1.txt"
+    ],
+    "tier": "tier1",
+    "scenario_id": "tier1_5c21d9fcf3",
+    "metadata": {}
+  },
+  {
+    "command": "rm",
+    "options": [
+      "-v",
+      "/tmp/test_file1.txt"
+    ],
+    "args": [
+      "/tmp/test_file2.txt"
+    ],
+    "tier": "tier1",
+    "scenario_id": "tier1_bf823d89ce",
+    "metadata": {}
+  },
+  {
+    "command": "rm",
+    "options": [
+      "-r",
+      "/tmp/test_dir"
+    ],
+    "args": [
+      "/tmp/test_file1.txt"
+    ],
+    "tier": "tier1",
+    "scenario_id": "tier1_b3f1298217",
+    "metadata": {}
+  },
+  {
+    "command": "rm",
+    "options": [
+      "-r",
+      "/tmp/test_dir"
+    ],
+    "args": [
+      "/tmp/test_file2.txt"
+    ],
+    "tier": "tier1",
+    "scenario_id": "tier1_0729ee98e0",
+    "metadata": {}
+  },
+  {
+    "command": "rm",
+    "options": [
+      "-f",
+      "/tmp/test_file2.txt"
+    ],
+    "args": [
+      "/tmp/test_file1.txt"
+    ],
+    "tier": "tier1",
+    "scenario_id": "tier1_f791494ca6",
+    "metadata": {}
+  },
+  {
+    "command": "rm",
+    "options": [
+      "-f",
+      "/tmp/test_file2.txt"
+    ],
+    "args": [
+      "/tmp/test_file2.txt"
+    ],
+    "tier": "tier1",
+    "scenario_id": "tier1_5621a91e4b",
+    "metadata": {}
+  }
+]

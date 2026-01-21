@@ -1,0 +1,23 @@
+{
+  "command": "echo",
+  "tier": "tier0",
+  "scenario_id": "tier0_e829ed4385",
+  "options": [
+    "-n"
+  ],
+  "args": [
+    "Mancer generator coreutils"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "echo -n 'Mancer generator coreutils'",
+  "result": {
+    "exit_code": 0,
+    "stdout": "Mancer generator coreutils",
+    "stderr": "",
+    "duration_ms": 495.6589610001174
+  },
+  "generated_at": "2026-01-21T06:55:02.658584Z"
+}

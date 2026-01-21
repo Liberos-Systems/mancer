@@ -1,0 +1,24 @@
+{
+  "command": "head",
+  "tier": "tier0",
+  "scenario_id": "tier0_186823f7ec",
+  "options": [
+    "-c",
+    "64"
+  ],
+  "args": [
+    "/opt/coreutils-fixtures/files/file_alpha.txt"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "head -c 64 /opt/coreutils-fixtures/files/file_alpha.txt",
+  "result": {
+    "exit_code": 0,
+    "stdout": "alpha\nbeta\ngamma\n",
+    "stderr": "",
+    "duration_ms": 513.9246440003262
+  },
+  "generated_at": "2026-01-21T06:55:51.476795Z"
+}

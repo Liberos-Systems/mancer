@@ -1,0 +1,26 @@
+{
+  "command": "grep",
+  "tier": "tier1",
+  "scenario_id": "tier1_2d8ea36d16",
+  "options": [
+    "-n",
+    "line",
+    "/opt/coreutils-fixtures/files/file_numbers.txt"
+  ],
+  "args": [
+    "pattern",
+    "/opt/coreutils-fixtures/files/file_alpha.txt"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "grep -n line /opt/coreutils-fixtures/files/file_numbers.txt pattern /opt/coreutils-fixtures/files/file_alpha.txt",
+  "result": {
+    "exit_code": 2,
+    "stdout": "",
+    "stderr": "grep: pattern: No such file or directory\n",
+    "duration_ms": 541.3767710006141
+  },
+  "generated_at": "2026-01-21T06:55:24.139137Z"
+}

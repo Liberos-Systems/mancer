@@ -1,0 +1,23 @@
+{
+  "command": "ls",
+  "tier": "tier1",
+  "scenario_id": "tier1_abfc33352e",
+  "options": [
+    "-a"
+  ],
+  "args": [
+    "/opt/coreutils-fixtures/files"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "ls -a /opt/coreutils-fixtures/files",
+  "result": {
+    "exit_code": 0,
+    "stdout": ".\n..\nbinary.dat\nempty.txt\nempty_dir\nfile_alpha.txt\nfile_numbers.txt\nhidden\nsymlinks\n",
+    "stderr": "",
+    "duration_ms": 791.7225950004649
+  },
+  "generated_at": "2026-01-21T06:54:46.331750Z"
+}

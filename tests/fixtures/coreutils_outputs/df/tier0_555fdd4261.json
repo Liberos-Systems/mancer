@@ -1,0 +1,23 @@
+{
+  "command": "df",
+  "tier": "tier0",
+  "scenario_id": "tier0_555fdd4261",
+  "options": [
+    "-i"
+  ],
+  "args": [
+    "/opt/coreutils-fixtures"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "df -i /opt/coreutils-fixtures",
+  "result": {
+    "exit_code": 0,
+    "stdout": "Filesystem       Inodes   IUsed    IFree IUse% Mounted on\noverlay        31227904 4557647 26670257   15% /\n",
+    "stderr": "",
+    "duration_ms": 549.9237020012515
+  },
+  "generated_at": "2026-01-21T11:17:01.853336Z"
+}

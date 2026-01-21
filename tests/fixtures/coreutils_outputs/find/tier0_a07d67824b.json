@@ -1,0 +1,23 @@
+{
+  "command": "find",
+  "tier": "tier0",
+  "scenario_id": "tier0_a07d67824b",
+  "options": [
+    "-L"
+  ],
+  "args": [
+    "/opt/coreutils-fixtures/files"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "find -L /opt/coreutils-fixtures/files",
+  "result": {
+    "exit_code": 0,
+    "stdout": "/opt/coreutils-fixtures/files\n/opt/coreutils-fixtures/files/symlinks\n/opt/coreutils-fixtures/files/symlinks/link_to_alpha\n/opt/coreutils-fixtures/files/empty.txt\n/opt/coreutils-fixtures/files/binary.dat\n/opt/coreutils-fixtures/files/file_numbers.txt\n/opt/coreutils-fixtures/files/hidden\n/opt/coreutils-fixtures/files/hidden/.secret\n/opt/coreutils-fixtures/files/file_alpha.txt\n/opt/coreutils-fixtures/files/empty_dir\n",
+    "stderr": "",
+    "duration_ms": 623.4612369989918
+  },
+  "generated_at": "2026-01-21T11:16:44.004982Z"
+}

@@ -1,0 +1,23 @@
+{
+  "command": "find",
+  "tier": "tier0",
+  "scenario_id": "tier0_d688fe3a87",
+  "options": [
+    "-Olevel"
+  ],
+  "args": [
+    "/opt/coreutils-fixtures/files"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "find -Olevel /opt/coreutils-fixtures/files",
+  "result": {
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "find: Please specify a decimal number immediately after -O\n",
+    "duration_ms": 559.9373539989756
+  },
+  "generated_at": "2026-01-21T11:16:46.414458Z"
+}

@@ -1,0 +1,21 @@
+{
+  "command": "ps",
+  "tier": "tier1",
+  "scenario_id": "tier1_4880d2df99",
+  "options": [
+    "-e"
+  ],
+  "args": [],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "ps -e",
+  "result": {
+    "exit_code": 0,
+    "stdout": "    PID TTY          TIME CMD\n      1 ?        00:00:00 ps\n",
+    "stderr": "",
+    "duration_ms": 688.0526739987545
+  },
+  "generated_at": "2026-01-21T11:16:38.904545Z"
+}

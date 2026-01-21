@@ -1,0 +1,268 @@
+[
+  {
+    "command": "mkdir",
+    "options": [],
+    "args": [
+      "/tmp/test_dir1"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_ddbf2afaf6",
+    "metadata": {}
+  },
+  {
+    "command": "mkdir",
+    "options": [],
+    "args": [
+      "/tmp/test_dir2"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_c3d623fc80",
+    "metadata": {}
+  },
+  {
+    "command": "mkdir",
+    "options": [
+      "-m",
+      "755"
+    ],
+    "args": [
+      "/tmp/test_dir1"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_e4e6415efe",
+    "metadata": {}
+  },
+  {
+    "command": "mkdir",
+    "options": [
+      "-m",
+      "755"
+    ],
+    "args": [
+      "/tmp/test_dir2"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_6222200f6f",
+    "metadata": {}
+  },
+  {
+    "command": "mkdir",
+    "options": [
+      "-p"
+    ],
+    "args": [
+      "/tmp/test_dir1"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_fe8a495940",
+    "metadata": {}
+  },
+  {
+    "command": "mkdir",
+    "options": [
+      "-p"
+    ],
+    "args": [
+      "/tmp/test_dir2"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_8c7e38e3c8",
+    "metadata": {}
+  },
+  {
+    "command": "mkdir",
+    "options": [
+      "--parents"
+    ],
+    "args": [
+      "/tmp/test_dir1"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_2e4950e246",
+    "metadata": {}
+  },
+  {
+    "command": "mkdir",
+    "options": [
+      "--parents"
+    ],
+    "args": [
+      "/tmp/test_dir2"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_8f37b3df46",
+    "metadata": {}
+  },
+  {
+    "command": "mkdir",
+    "options": [
+      "-v"
+    ],
+    "args": [
+      "/tmp/test_dir1"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_53a629ee1c",
+    "metadata": {}
+  },
+  {
+    "command": "mkdir",
+    "options": [
+      "-v"
+    ],
+    "args": [
+      "/tmp/test_dir2"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_b1615ff13a",
+    "metadata": {}
+  },
+  {
+    "command": "mkdir",
+    "options": [
+      "--verbose"
+    ],
+    "args": [
+      "/tmp/test_dir1"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_7092e3cd80",
+    "metadata": {}
+  },
+  {
+    "command": "mkdir",
+    "options": [
+      "--verbose"
+    ],
+    "args": [
+      "/tmp/test_dir2"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_14908960b8",
+    "metadata": {}
+  },
+  {
+    "command": "mkdir",
+    "options": [
+      "-Z"
+    ],
+    "args": [
+      "/tmp/test_dir1"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_d91374561c",
+    "metadata": {}
+  },
+  {
+    "command": "mkdir",
+    "options": [
+      "-Z"
+    ],
+    "args": [
+      "/tmp/test_dir2"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_509d64ac76",
+    "metadata": {}
+  },
+  {
+    "command": "mkdir",
+    "options": [
+      "--context"
+    ],
+    "args": [
+      "/tmp/test_dir1"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_90315d7682",
+    "metadata": {}
+  },
+  {
+    "command": "mkdir",
+    "options": [
+      "--context"
+    ],
+    "args": [
+      "/tmp/test_dir2"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_6d021cc512",
+    "metadata": {}
+  },
+  {
+    "command": "mkdir",
+    "options": [
+      "--version"
+    ],
+    "args": [
+      "/tmp/test_dir1"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_5f40e1b640",
+    "metadata": {}
+  },
+  {
+    "command": "mkdir",
+    "options": [
+      "--version"
+    ],
+    "args": [
+      "/tmp/test_dir2"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_9dd33cf79c",
+    "metadata": {}
+  },
+  {
+    "command": "mkdir",
+    "options": [
+      "-p",
+      "/tmp/test_dir/subdir"
+    ],
+    "args": [
+      "/tmp/test_dir1"
+    ],
+    "tier": "tier1",
+    "scenario_id": "tier1_75a1575393",
+    "metadata": {}
+  },
+  {
+    "command": "mkdir",
+    "options": [
+      "-p",
+      "/tmp/test_dir/subdir"
+    ],
+    "args": [
+      "/tmp/test_dir2"
+    ],
+    "tier": "tier1",
+    "scenario_id": "tier1_38b1aba4bc",
+    "metadata": {}
+  },
+  {
+    "command": "mkdir",
+    "options": [
+      "-v",
+      "/tmp/test_dir3"
+    ],
+    "args": [
+      "/tmp/test_dir1"
+    ],
+    "tier": "tier1",
+    "scenario_id": "tier1_8c3ec3f47d",
+    "metadata": {}
+  },
+  {
+    "command": "mkdir",
+    "options": [
+      "-v",
+      "/tmp/test_dir3"
+    ],
+    "args": [
+      "/tmp/test_dir2"
+    ],
+    "tier": "tier1",
+    "scenario_id": "tier1_b9b1d8bc17",
+    "metadata": {}
+  }
+]

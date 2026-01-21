@@ -1,0 +1,23 @@
+{
+  "command": "df",
+  "tier": "tier0",
+  "scenario_id": "tier0_9eea21cbf5",
+  "options": [
+    "-h"
+  ],
+  "args": [
+    "/opt/coreutils-fixtures"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "df -h /opt/coreutils-fixtures",
+  "result": {
+    "exit_code": 0,
+    "stdout": "Filesystem      Size  Used Avail Use% Mounted on\noverlay         468G  423G   22G  96% /\n",
+    "stderr": "",
+    "duration_ms": 602.2279620010522
+  },
+  "generated_at": "2026-01-21T11:16:56.957236Z"
+}
