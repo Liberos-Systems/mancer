@@ -1,0 +1,24 @@
+{
+  "command": "rm",
+  "tier": "tier1",
+  "scenario_id": "tier1_5621a91e4b",
+  "options": [
+    "-f",
+    "/tmp/test_file2.txt"
+  ],
+  "args": [
+    "/tmp/test_file2.txt"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "rm -f /tmp/test_file2.txt /tmp/test_file2.txt",
+  "result": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "",
+    "duration_ms": 617.9993350015138
+  },
+  "generated_at": "2026-01-21T11:18:02.660764Z"
+}

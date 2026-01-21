@@ -1,0 +1,72 @@
+[
+  {
+    "token": "-P",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-L",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-H",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-P=option",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-D=debugopts",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-ok=and",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-Olevel",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-name=and",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-fstype=FOO",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-false",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  }
+]

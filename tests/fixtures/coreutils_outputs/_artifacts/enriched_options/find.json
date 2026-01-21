@@ -1,0 +1,37 @@
+[
+  {
+    "token": "-P",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-L",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-H",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-Olevel",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-false",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  }
+]

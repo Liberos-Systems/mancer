@@ -1,0 +1,191 @@
+[
+  {
+    "token": "-A",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-a",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-d",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--deselect",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-e",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-N",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-123",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--quick-pid",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-c",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--context",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-f",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-F",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-j",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-l",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-M",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-y",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--cumulative",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--forest",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-H",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--headers",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--no-headers",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-w",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-L",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-m",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-T",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-V",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--version",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "command": "ps",
+  "tier": "tier0",
+  "scenario_id": "tier0_96bffbb724",
+  "options": [
+    "--quick-pid"
+  ],
+  "args": [],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "ps --quick-pid",
+  "result": {
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "error: List of process IDs must follow --quick-pid.\n\nUsage:\n ps [options]\n\n Try 'ps --help <simple|list|output|threads|misc|all>'\n  or 'ps --help <s|l|o|t|m|a>'\n for additional help text.\n\nFor more details see ps(1).\n",
+    "duration_ms": 646.2823000001663
+  },
+  "generated_at": "2026-01-21T11:16:38.214995Z"
+}

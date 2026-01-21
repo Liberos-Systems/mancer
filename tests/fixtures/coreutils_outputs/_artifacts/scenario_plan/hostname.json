@@ -1,0 +1,90 @@
+[
+  {
+    "command": "hostname",
+    "options": [],
+    "args": [],
+    "tier": "tier0",
+    "scenario_id": "tier0_709381e970",
+    "metadata": {}
+  },
+  {
+    "command": "hostname",
+    "options": [
+      "-a"
+    ],
+    "args": [],
+    "tier": "tier0",
+    "scenario_id": "tier0_1803b2016a",
+    "metadata": {}
+  },
+  {
+    "command": "hostname",
+    "options": [
+      "--alias"
+    ],
+    "args": [],
+    "tier": "tier0",
+    "scenario_id": "tier0_cecb29e400",
+    "metadata": {}
+  },
+  {
+    "command": "hostname",
+    "options": [
+      "-A"
+    ],
+    "args": [],
+    "tier": "tier0",
+    "scenario_id": "tier0_c027b52729",
+    "metadata": {}
+  },
+  {
+    "command": "hostname",
+    "options": [
+      "--all-fqdns"
+    ],
+    "args": [],
+    "tier": "tier0",
+    "scenario_id": "tier0_7d74dfb9ea",
+    "metadata": {}
+  },
+  {
+    "command": "hostname",
+    "options": [
+      "-b"
+    ],
+    "args": [],
+    "tier": "tier0",
+    "scenario_id": "tier0_f7e9066533",
+    "metadata": {}
+  },
+  {
+    "command": "hostname",
+    "options": [
+      "--boot"
+    ],
+    "args": [],
+    "tier": "tier0",
+    "scenario_id": "tier0_ef76525183",
+    "metadata": {}
+  },
+  {
+    "command": "hostname",
+    "options": [
+      "-d"
+    ],
+    "args": [],
+    "tier": "tier0",
+    "scenario_id": "tier0_0c55a04482",
+    "metadata": {}
+  },
+  {
+    "command": "hostname",
+    "options": [
+      "--domain"
+    ],
+    "args": [],
+    "tier": "tier0",
+    "scenario_id": "tier0_e48be185f1",
+    "metadata": {}
+  }
+]

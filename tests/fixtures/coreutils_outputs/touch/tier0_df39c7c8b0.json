@@ -1,0 +1,23 @@
+{
+  "command": "touch",
+  "tier": "tier0",
+  "scenario_id": "tier0_df39c7c8b0",
+  "options": [
+    "-h"
+  ],
+  "args": [
+    "/tmp/test_file2.txt"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "touch -h /tmp/test_file2.txt",
+  "result": {
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "touch: setting times of '/tmp/test_file2.txt': No such file or directory\n",
+    "duration_ms": 702.3590140015585
+  },
+  "generated_at": "2026-01-21T11:18:11.640033Z"
+}

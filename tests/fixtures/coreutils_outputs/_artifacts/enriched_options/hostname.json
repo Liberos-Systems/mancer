@@ -1,0 +1,156 @@
+[
+  {
+    "token": "-a",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--alias",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-A",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--all-fqdns",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-b",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--boot",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-d",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--domain",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-f",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--fqdn",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-i",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--ip-address",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-I",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--all-ip-addresses",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-s",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--short",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-V",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--version",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-y",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--yp",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-h",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--help",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  }
+]

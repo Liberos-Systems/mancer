@@ -1,0 +1,72 @@
+[
+  {
+    "token": "-m",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--mode=MODE",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-p",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--parents",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-v",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--verbose",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-Z",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--context",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--help=display",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--version",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  }
+]

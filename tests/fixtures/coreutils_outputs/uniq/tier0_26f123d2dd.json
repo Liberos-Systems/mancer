@@ -1,0 +1,23 @@
+{
+  "command": "uniq",
+  "tier": "tier0",
+  "scenario_id": "tier0_26f123d2dd",
+  "options": [
+    "-c"
+  ],
+  "args": [
+    "/opt/coreutils-fixtures/files/file_alpha.txt"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "uniq -c /opt/coreutils-fixtures/files/file_alpha.txt",
+  "result": {
+    "exit_code": 0,
+    "stdout": "      1 alpha\n      1 beta\n      1 gamma\n",
+    "stderr": "",
+    "duration_ms": 535.0564130003477
+  },
+  "generated_at": "2026-01-21T06:55:39.475118Z"
+}

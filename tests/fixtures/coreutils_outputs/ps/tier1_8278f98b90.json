@@ -1,0 +1,21 @@
+{
+  "command": "ps",
+  "tier": "tier1",
+  "scenario_id": "tier1_8278f98b90",
+  "options": [
+    "-f"
+  ],
+  "args": [],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "ps -f",
+  "result": {
+    "exit_code": 0,
+    "stdout": "UID          PID    PPID  C STIME TTY          TIME CMD\nroot           1       0  0 11:16 ?        00:00:00 ps -f\n",
+    "stderr": "",
+    "duration_ms": 526.3837620004779
+  },
+  "generated_at": "2026-01-21T11:16:39.432076Z"
+}

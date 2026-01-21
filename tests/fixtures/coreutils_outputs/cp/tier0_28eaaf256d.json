@@ -1,0 +1,24 @@
+{
+  "command": "cp",
+  "tier": "tier0",
+  "scenario_id": "tier0_28eaaf256d",
+  "options": [
+    "--archive"
+  ],
+  "args": [
+    "/opt/coreutils-fixtures/files/file_numbers.txt",
+    "/tmp/test_copy2.txt"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "cp --archive /opt/coreutils-fixtures/files/file_numbers.txt /tmp/test_copy2.txt",
+  "result": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "",
+    "duration_ms": 781.3619270018535
+  },
+  "generated_at": "2026-01-21T11:17:10.421922Z"
+}

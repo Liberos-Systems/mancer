@@ -1,0 +1,24 @@
+{
+  "command": "grep",
+  "tier": "tier0",
+  "scenario_id": "tier0_1e483a3b7f",
+  "options": [
+    "-G"
+  ],
+  "args": [
+    "pattern",
+    "/opt/coreutils-fixtures/files/file_alpha.txt"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "grep -G pattern /opt/coreutils-fixtures/files/file_alpha.txt",
+  "result": {
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "",
+    "duration_ms": 629.4044080004824
+  },
+  "generated_at": "2026-01-21T06:55:20.988062Z"
+}

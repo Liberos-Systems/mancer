@@ -1,0 +1,205 @@
+[
+  {
+    "token": "-a",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--all",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-B",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--block-size=SIZE",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-h",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--human-readable",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-H",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--si",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-i",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--inodes",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-k",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-l",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--local",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--no-sync",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--output",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-P",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--portability",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--sync=invoke",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--total",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-t",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--type=TYPE",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-T",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--print-type",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-x",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--exclude-type=TYPE",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-v",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--help=display",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--version",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--block-size",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "command": "find",
+  "tier": "tier1",
+  "scenario_id": "tier1_073c99fc60",
+  "options": [
+    "/opt/coreutils-fixtures/files",
+    "-type",
+    "f"
+  ],
+  "args": [
+    "/opt/coreutils-fixtures"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "find /opt/coreutils-fixtures/files -type f /opt/coreutils-fixtures",
+  "result": {
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "find: paths must precede expression: `/opt/coreutils-fixtures'\nfind: possible unquoted pattern after predicate `-type'?\n",
+    "duration_ms": 702.3448149993783
+  },
+  "generated_at": "2026-01-21T11:16:50.973433Z"
+}

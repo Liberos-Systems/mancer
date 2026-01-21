@@ -1,0 +1,21 @@
+{
+  "command": "df",
+  "tier": "tier0",
+  "scenario_id": "tier0_b585885f93",
+  "options": [
+    "--human-readable"
+  ],
+  "args": [],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "df --human-readable",
+  "result": {
+    "exit_code": 0,
+    "stdout": "Filesystem      Size  Used Avail Use% Mounted on\noverlay         468G  423G   22G  96% /\ntmpfs            64M     0   64M   0% /dev\nshm              64M     0   64M   0% /dev/shm\n/dev/sda2       468G  423G   22G  96% /etc/hosts\ntmpfs            16G     0   16G   0% /proc/acpi\ntmpfs            16G     0   16G   0% /proc/asound\ntmpfs            16G     0   16G   0% /proc/scsi\ntmpfs            16G     0   16G   0% /sys/devices/virtual/powercap\ntmpfs            16G     0   16G   0% /sys/firmware\ntmpfs            16G     0   16G   0% /sys/devices/system/cpu/cpu0/thermal_throttle\ntmpfs            16G     0   16G   0% /sys/devices/system/cpu/cpu1/thermal_throttle\ntmpfs            16G     0   16G   0% /sys/devices/system/cpu/cpu2/thermal_throttle\ntmpfs            16G     0   16G   0% /sys/devices/system/cpu/cpu3/thermal_throttle\ntmpfs            16G     0   16G   0% /sys/devices/system/cpu/cpu4/thermal_throttle\ntmpfs            16G     0   16G   0% /sys/devices/system/cpu/cpu5/thermal_throttle\ntmpfs            16G     0   16G   0% /sys/devices/system/cpu/cpu6/thermal_throttle\ntmpfs            16G     0   16G   0% /sys/devices/system/cpu/cpu7/thermal_throttle\n",
+    "stderr": "",
+    "duration_ms": 638.3132909977576
+  },
+  "generated_at": "2026-01-21T11:16:57.597635Z"
+}

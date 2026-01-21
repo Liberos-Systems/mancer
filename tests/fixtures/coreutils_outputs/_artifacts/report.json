@@ -1,0 +1,384 @@
+{
+  "image_tag": "mancer/coreutils-test:latest",
+  "generated_at": "2026-01-21T11:18:18.756775Z",
+  "commands": [
+    {
+      "command": "hostname",
+      "option_source": "man",
+      "image_tag": "mancer/coreutils-test:latest",
+      "planned": {
+        "total": 9,
+        "by_tier": {
+          "tier0": 9
+        }
+      },
+      "executed": {
+        "total": 9,
+        "by_tier": {
+          "tier0": 9
+        }
+      },
+      "exit_codes": {
+        "0": 9
+      },
+      "success_rate": 1.0,
+      "unique_stdout": 7,
+      "stdout_top": [
+        {
+          "hash": "adc83b19e793491b1c6ea0fd8b46cd9f32e592fc",
+          "count": 2,
+          "length": 1
+        },
+        {
+          "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "count": 2,
+          "length": 0
+        },
+        {
+          "hash": "e390f9d2c0f98c4dc53932d987bca7ae3853f347",
+          "count": 1,
+          "length": 13
+        },
+        {
+          "hash": "0c212b69f9a79b7bbaab63965376a6741c9cbf70",
+          "count": 1,
+          "length": 14
+        },
+        {
+          "hash": "44c03024d39a4a5dad2fa171103eb3a49cbab126",
+          "count": 1,
+          "length": 14
+        }
+      ]
+    },
+    {
+      "command": "ps",
+      "option_source": "man",
+      "image_tag": "mancer/coreutils-test:latest",
+      "planned": {
+        "total": 12,
+        "by_tier": {
+          "tier0": 9,
+          "tier1": 3
+        }
+      },
+      "executed": {
+        "total": 12,
+        "by_tier": {
+          "tier0": 9,
+          "tier1": 3
+        }
+      },
+      "exit_codes": {
+        "0": 6,
+        "1": 6
+      },
+      "success_rate": 0.5,
+      "unique_stdout": 5,
+      "stdout_top": [
+        {
+          "hash": "d3b6cd360550e5629a7f81d01b66cfa4215d1c6b",
+          "count": 5,
+          "length": 59
+        },
+        {
+          "hash": "e2b69ff2b2bd1c461815c8ed8c38f07c4fb6c647",
+          "count": 4,
+          "length": 30
+        },
+        {
+          "hash": "5ab8829fba79d07c1ecf752689b9869beec77b62",
+          "count": 1,
+          "length": 37
+        },
+        {
+          "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "count": 1,
+          "length": 0
+        },
+        {
+          "hash": "231fa7a53ccebc81d7dd682c5a1498b8ad95a1c3",
+          "count": 1,
+          "length": 114
+        }
+      ]
+    },
+    {
+      "command": "find",
+      "option_source": "man",
+      "image_tag": "mancer/coreutils-test:latest",
+      "planned": {
+        "total": 16,
+        "by_tier": {
+          "tier0": 12,
+          "tier1": 4
+        }
+      },
+      "executed": {
+        "total": 16,
+        "by_tier": {
+          "tier0": 12,
+          "tier1": 4
+        }
+      },
+      "exit_codes": {
+        "0": 8,
+        "1": 8
+      },
+      "success_rate": 0.5,
+      "unique_stdout": 3,
+      "stdout_top": [
+        {
+          "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "count": 8,
+          "length": 0
+        },
+        {
+          "hash": "6544b2d24cdf47a10ae2288f6b1a8e46ed970fff",
+          "count": 4,
+          "length": 417
+        },
+        {
+          "hash": "6b39c4a88006b49b5cba345f27ae5b8637b4db59",
+          "count": 4,
+          "length": 621
+        }
+      ]
+    },
+    {
+      "command": "df",
+      "option_source": "man",
+      "image_tag": "mancer/coreutils-test:latest",
+      "planned": {
+        "total": 22,
+        "by_tier": {
+          "tier0": 18,
+          "tier1": 4
+        }
+      },
+      "executed": {
+        "total": 22,
+        "by_tier": {
+          "tier0": 18,
+          "tier1": 4
+        }
+      },
+      "exit_codes": {
+        "0": 22
+      },
+      "success_rate": 1.0,
+      "unique_stdout": 16,
+      "stdout_top": [
+        {
+          "hash": "ec1fb2f1cf1e5c399358212f0b4e3cf730422af2",
+          "count": 3,
+          "length": 1169
+        },
+        {
+          "hash": "fce68072f17e82323a2ff5b8fdbe34da11369f4f",
+          "count": 3,
+          "length": 89
+        },
+        {
+          "hash": "f5192c130cee319d22353b65bfc697ad157a1c41",
+          "count": 2,
+          "length": 1169
+        },
+        {
+          "hash": "78c9350239e635b41c2129e9c1d47f257341aab0",
+          "count": 2,
+          "length": 89
+        },
+        {
+          "hash": "bfa8ac9638be47b1879370d369d16f337a05a463",
+          "count": 1,
+          "length": 1385
+        }
+      ]
+    },
+    {
+      "command": "cp",
+      "option_source": "man",
+      "image_tag": "mancer/coreutils-test:latest",
+      "planned": {
+        "total": 22,
+        "by_tier": {
+          "tier0": 18,
+          "tier1": 4
+        }
+      },
+      "executed": {
+        "total": 22,
+        "by_tier": {
+          "tier0": 18,
+          "tier1": 4
+        }
+      },
+      "exit_codes": {
+        "0": 18,
+        "1": 4
+      },
+      "success_rate": 0.8181818181818182,
+      "unique_stdout": 1,
+      "stdout_top": [
+        {
+          "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "count": 22,
+          "length": 0
+        }
+      ]
+    },
+    {
+      "command": "mkdir",
+      "option_source": "man",
+      "image_tag": "mancer/coreutils-test:latest",
+      "planned": {
+        "total": 22,
+        "by_tier": {
+          "tier0": 18,
+          "tier1": 4
+        }
+      },
+      "executed": {
+        "total": 22,
+        "by_tier": {
+          "tier0": 18,
+          "tier1": 4
+        }
+      },
+      "exit_codes": {
+        "0": 22
+      },
+      "success_rate": 1.0,
+      "unique_stdout": 6,
+      "stdout_top": [
+        {
+          "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "count": 14,
+          "length": 0
+        },
+        {
+          "hash": "ae2ed8fd5bf865224f1dcbdb4157783e74875b15",
+          "count": 2,
+          "length": 42
+        },
+        {
+          "hash": "46375571fcb5db3ae6ae7d63169807ad660352b9",
+          "count": 2,
+          "length": 42
+        },
+        {
+          "hash": "c9f081464353f444e4cd135a32ecc935553a48d2",
+          "count": 2,
+          "length": 307
+        },
+        {
+          "hash": "6bf0e6ed09e8a54a267d4ce3392cc667967516fd",
+          "count": 1,
+          "length": 84
+        }
+      ]
+    },
+    {
+      "command": "mv",
+      "option_source": "man",
+      "image_tag": "mancer/coreutils-test:latest",
+      "planned": {
+        "total": 22,
+        "by_tier": {
+          "tier0": 18,
+          "tier1": 4
+        }
+      },
+      "executed": {
+        "total": 22,
+        "by_tier": {
+          "tier0": 18,
+          "tier1": 4
+        }
+      },
+      "exit_codes": {
+        "0": 18,
+        "1": 4
+      },
+      "success_rate": 0.8181818181818182,
+      "unique_stdout": 1,
+      "stdout_top": [
+        {
+          "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "count": 22,
+          "length": 0
+        }
+      ]
+    },
+    {
+      "command": "rm",
+      "option_source": "man",
+      "image_tag": "mancer/coreutils-test:latest",
+      "planned": {
+        "total": 24,
+        "by_tier": {
+          "tier0": 18,
+          "tier1": 6
+        }
+      },
+      "executed": {
+        "total": 24,
+        "by_tier": {
+          "tier0": 18,
+          "tier1": 6
+        }
+      },
+      "exit_codes": {
+        "1": 18,
+        "0": 6
+      },
+      "success_rate": 0.25,
+      "unique_stdout": 1,
+      "stdout_top": [
+        {
+          "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "count": 24,
+          "length": 0
+        }
+      ]
+    },
+    {
+      "command": "touch",
+      "option_source": "man",
+      "image_tag": "mancer/coreutils-test:latest",
+      "planned": {
+        "total": 24,
+        "by_tier": {
+          "tier0": 18,
+          "tier1": 6
+        }
+      },
+      "executed": {
+        "total": 24,
+        "by_tier": {
+          "tier0": 18,
+          "tier1": 6
+        }
+      },
+      "exit_codes": {
+        "0": 20,
+        "1": 4
+      },
+      "success_rate": 0.8333333333333334,
+      "unique_stdout": 2,
+      "stdout_top": [
+        {
+          "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "count": 22,
+          "length": 0
+        },
+        {
+          "hash": "8e31fd9931c6c16fa0f833de90fd062c1f2be4f4",
+          "count": 2,
+          "length": 365
+        }
+      ]
+    }
+  ]
+}

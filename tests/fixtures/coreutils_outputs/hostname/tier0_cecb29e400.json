@@ -1,0 +1,21 @@
+{
+  "command": "hostname",
+  "tier": "tier0",
+  "scenario_id": "tier0_cecb29e400",
+  "options": [
+    "--alias"
+  ],
+  "args": [],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "hostname --alias",
+  "result": {
+    "exit_code": 0,
+    "stdout": "\n",
+    "stderr": "",
+    "duration_ms": 753.0878549987392
+  },
+  "generated_at": "2026-01-21T11:16:28.044455Z"
+}

@@ -1,0 +1,23 @@
+{
+  "command": "rm",
+  "tier": "tier0",
+  "scenario_id": "tier0_ddbdefe730",
+  "options": [
+    "-f"
+  ],
+  "args": [
+    "/tmp/test_file2.txt"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "rm -f /tmp/test_file2.txt",
+  "result": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "",
+    "duration_ms": 433.9556339982664
+  },
+  "generated_at": "2026-01-21T11:17:51.509659Z"
+}

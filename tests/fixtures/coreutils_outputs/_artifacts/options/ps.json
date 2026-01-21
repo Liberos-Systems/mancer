@@ -1,0 +1,422 @@
+[
+  {
+    "token": "-A",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-a",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-d",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--deselect",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-e",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-N",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-123",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-C=cmdlist",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-G=grplist",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-g=grplist",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--Group=grplist",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--group=grplist",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-p=pidlist",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--pid=pidlist",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--ppid=pidlist",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--quick-pid",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-q=pidlist",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--quick-pid=pidlist",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-s=sesslist",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--sid=sesslist",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-t=ttylist",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--tty=ttylist",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-U=userlist",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-u=userlist",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--User=userlist",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--user=userlist",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-c",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--context",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-f",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-F",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--format=format",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-j",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-l",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-M",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-O=format",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-o=pid",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-o=format",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-y",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--cols=n",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--columns=n",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--cumulative",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--forest",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--no-headers=to",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-H",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--headers",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--lines=n",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--no-headers",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--rows=n",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--sort=spec",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-w",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--width=n",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-L",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-m",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-T",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--help=section",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--info=Print",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-V",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--version",
+    "description": "",
+    "requires_value": false,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "--cols=option",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  },
+  {
+    "token": "-1=if",
+    "description": "",
+    "requires_value": true,
+    "default_value": null,
+    "source": "man"
+  }
+]

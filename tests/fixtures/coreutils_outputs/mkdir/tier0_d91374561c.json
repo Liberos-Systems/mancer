@@ -1,0 +1,23 @@
+{
+  "command": "mkdir",
+  "tier": "tier0",
+  "scenario_id": "tier0_d91374561c",
+  "options": [
+    "-Z"
+  ],
+  "args": [
+    "/tmp/test_dir1"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "mkdir -Z /tmp/test_dir1",
+  "result": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "",
+    "duration_ms": 556.6249170005904
+  },
+  "generated_at": "2026-01-21T11:17:29.479660Z"
+}

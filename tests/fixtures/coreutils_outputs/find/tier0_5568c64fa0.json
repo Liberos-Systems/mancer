@@ -1,0 +1,23 @@
+{
+  "command": "find",
+  "tier": "tier0",
+  "scenario_id": "tier0_5568c64fa0",
+  "options": [
+    "-H"
+  ],
+  "args": [
+    "/opt/coreutils-fixtures"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "find -H /opt/coreutils-fixtures",
+  "result": {
+    "exit_code": 0,
+    "stdout": "/opt/coreutils-fixtures\n/opt/coreutils-fixtures/logs\n/opt/coreutils-fixtures/logs/app.log\n/opt/coreutils-fixtures/data\n/opt/coreutils-fixtures/data/nested\n/opt/coreutils-fixtures/data/nested/patterns.txt\n/opt/coreutils-fixtures/files\n/opt/coreutils-fixtures/files/symlinks\n/opt/coreutils-fixtures/files/symlinks/link_to_alpha\n/opt/coreutils-fixtures/files/empty.txt\n/opt/coreutils-fixtures/files/binary.dat\n/opt/coreutils-fixtures/files/file_numbers.txt\n/opt/coreutils-fixtures/files/hidden\n/opt/coreutils-fixtures/files/hidden/.secret\n/opt/coreutils-fixtures/files/file_alpha.txt\n/opt/coreutils-fixtures/files/empty_dir\n",
+    "stderr": "",
+    "duration_ms": 608.4880870002962
+  },
+  "generated_at": "2026-01-21T11:16:45.850022Z"
+}

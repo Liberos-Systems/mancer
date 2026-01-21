@@ -1,0 +1,23 @@
+{
+  "command": "rm",
+  "tier": "tier0",
+  "scenario_id": "tier0_101eb6c7fe",
+  "options": [
+    "-r"
+  ],
+  "args": [
+    "/tmp/test_file1.txt"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "rm -r /tmp/test_file1.txt",
+  "result": {
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "rm: cannot remove '/tmp/test_file1.txt': No such file or directory\n",
+    "duration_ms": 439.5366129974718
+  },
+  "generated_at": "2026-01-21T11:17:57.726412Z"
+}

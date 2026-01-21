@@ -1,0 +1,21 @@
+{
+  "command": "hostname",
+  "tier": "tier0",
+  "scenario_id": "tier0_7d74dfb9ea",
+  "options": [
+    "--all-fqdns"
+  ],
+  "args": [],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "hostname --all-fqdns",
+  "result": {
+    "exit_code": 0,
+    "stdout": "affd47011624 \n",
+    "stderr": "",
+    "duration_ms": 632.7946310011612
+  },
+  "generated_at": "2026-01-21T11:16:29.460678Z"
+}

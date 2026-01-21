@@ -1,0 +1,23 @@
+{
+  "command": "touch",
+  "tier": "tier0",
+  "scenario_id": "tier0_7c333bf933",
+  "options": [
+    "--version"
+  ],
+  "args": [
+    "/tmp/test_file1.txt"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "touch --version /tmp/test_file1.txt",
+  "result": {
+    "exit_code": 0,
+    "stdout": "touch (GNU coreutils) 8.32\nCopyright (C) 2020 Free Software Foundation, Inc.\nLicense GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n\nWritten by Paul Rubin, Arnold Robbins, Jim Kingdon,\nDavid MacKenzie, and Randy Smith.\n",
+    "stderr": "",
+    "duration_ms": 677.2011409993866
+  },
+  "generated_at": "2026-01-21T11:18:14.651601Z"
+}

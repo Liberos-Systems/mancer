@@ -1,0 +1,198 @@
+[
+  {
+    "command": "find",
+    "options": [],
+    "args": [
+      "/opt/coreutils-fixtures/files"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_8637f95ca2",
+    "metadata": {}
+  },
+  {
+    "command": "find",
+    "options": [],
+    "args": [
+      "/opt/coreutils-fixtures"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_9516901d47",
+    "metadata": {}
+  },
+  {
+    "command": "find",
+    "options": [
+      "-P"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures/files"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_18d8cd0b3f",
+    "metadata": {}
+  },
+  {
+    "command": "find",
+    "options": [
+      "-P"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_484354f9a7",
+    "metadata": {}
+  },
+  {
+    "command": "find",
+    "options": [
+      "-L"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures/files"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_a07d67824b",
+    "metadata": {}
+  },
+  {
+    "command": "find",
+    "options": [
+      "-L"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_8c74b39421",
+    "metadata": {}
+  },
+  {
+    "command": "find",
+    "options": [
+      "-H"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures/files"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_2b6d25a48d",
+    "metadata": {}
+  },
+  {
+    "command": "find",
+    "options": [
+      "-H"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_5568c64fa0",
+    "metadata": {}
+  },
+  {
+    "command": "find",
+    "options": [
+      "-Olevel"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures/files"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_d688fe3a87",
+    "metadata": {}
+  },
+  {
+    "command": "find",
+    "options": [
+      "-Olevel"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_b375708358",
+    "metadata": {}
+  },
+  {
+    "command": "find",
+    "options": [
+      "-false"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures/files"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_6f35af0094",
+    "metadata": {}
+  },
+  {
+    "command": "find",
+    "options": [
+      "-false"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_970717076f",
+    "metadata": {}
+  },
+  {
+    "command": "find",
+    "options": [
+      "/opt/coreutils-fixtures/files",
+      "-name",
+      "*.txt"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures/files"
+    ],
+    "tier": "tier1",
+    "scenario_id": "tier1_4ab16be988",
+    "metadata": {}
+  },
+  {
+    "command": "find",
+    "options": [
+      "/opt/coreutils-fixtures/files",
+      "-name",
+      "*.txt"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures"
+    ],
+    "tier": "tier1",
+    "scenario_id": "tier1_830d4266c2",
+    "metadata": {}
+  },
+  {
+    "command": "find",
+    "options": [
+      "/opt/coreutils-fixtures/files",
+      "-type",
+      "f"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures/files"
+    ],
+    "tier": "tier1",
+    "scenario_id": "tier1_87fb913e9b",
+    "metadata": {}
+  },
+  {
+    "command": "find",
+    "options": [
+      "/opt/coreutils-fixtures/files",
+      "-type",
+      "f"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures"
+    ],
+    "tier": "tier1",
+    "scenario_id": "tier1_073c99fc60",
+    "metadata": {}
+  }
+]

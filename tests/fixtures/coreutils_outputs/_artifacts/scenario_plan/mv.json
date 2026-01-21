@@ -1,0 +1,292 @@
+[
+  {
+    "command": "mv",
+    "options": [],
+    "args": [
+      "/opt/coreutils-fixtures/files/file_alpha.txt",
+      "/tmp/test_move.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_35a5fe5e91",
+    "metadata": {}
+  },
+  {
+    "command": "mv",
+    "options": [],
+    "args": [
+      "/opt/coreutils-fixtures/files/file_numbers.txt",
+      "/tmp/test_move2.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_14d5b2e535",
+    "metadata": {}
+  },
+  {
+    "command": "mv",
+    "options": [
+      "--backup"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures/files/file_alpha.txt",
+      "/tmp/test_move.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_78e3247744",
+    "metadata": {}
+  },
+  {
+    "command": "mv",
+    "options": [
+      "--backup"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures/files/file_numbers.txt",
+      "/tmp/test_move2.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_e35fa5b7eb",
+    "metadata": {}
+  },
+  {
+    "command": "mv",
+    "options": [
+      "-b"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures/files/file_alpha.txt",
+      "/tmp/test_move.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_75609fad68",
+    "metadata": {}
+  },
+  {
+    "command": "mv",
+    "options": [
+      "-b"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures/files/file_numbers.txt",
+      "/tmp/test_move2.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_04b5cd8195",
+    "metadata": {}
+  },
+  {
+    "command": "mv",
+    "options": [
+      "-f"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures/files/file_alpha.txt",
+      "/tmp/test_move.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_0e62241150",
+    "metadata": {}
+  },
+  {
+    "command": "mv",
+    "options": [
+      "-f"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures/files/file_numbers.txt",
+      "/tmp/test_move2.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_88ca699046",
+    "metadata": {}
+  },
+  {
+    "command": "mv",
+    "options": [
+      "--force"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures/files/file_alpha.txt",
+      "/tmp/test_move.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_f56f2da679",
+    "metadata": {}
+  },
+  {
+    "command": "mv",
+    "options": [
+      "--force"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures/files/file_numbers.txt",
+      "/tmp/test_move2.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_6936b01a33",
+    "metadata": {}
+  },
+  {
+    "command": "mv",
+    "options": [
+      "-i"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures/files/file_alpha.txt",
+      "/tmp/test_move.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_bfd7caf60f",
+    "metadata": {}
+  },
+  {
+    "command": "mv",
+    "options": [
+      "-i"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures/files/file_numbers.txt",
+      "/tmp/test_move2.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_bef05b03b1",
+    "metadata": {}
+  },
+  {
+    "command": "mv",
+    "options": [
+      "--interactive"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures/files/file_alpha.txt",
+      "/tmp/test_move.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_73257a1536",
+    "metadata": {}
+  },
+  {
+    "command": "mv",
+    "options": [
+      "--interactive"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures/files/file_numbers.txt",
+      "/tmp/test_move2.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_9eaaa33ad0",
+    "metadata": {}
+  },
+  {
+    "command": "mv",
+    "options": [
+      "-n"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures/files/file_alpha.txt",
+      "/tmp/test_move.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_5905f10afb",
+    "metadata": {}
+  },
+  {
+    "command": "mv",
+    "options": [
+      "-n"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures/files/file_numbers.txt",
+      "/tmp/test_move2.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_d5e325e332",
+    "metadata": {}
+  },
+  {
+    "command": "mv",
+    "options": [
+      "--no-clobber"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures/files/file_alpha.txt",
+      "/tmp/test_move.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_2fdc6af418",
+    "metadata": {}
+  },
+  {
+    "command": "mv",
+    "options": [
+      "--no-clobber"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures/files/file_numbers.txt",
+      "/tmp/test_move2.txt"
+    ],
+    "tier": "tier0",
+    "scenario_id": "tier0_6ef6c86bda",
+    "metadata": {}
+  },
+  {
+    "command": "mv",
+    "options": [
+      "-v",
+      "/opt/coreutils-fixtures/files/file_alpha.txt",
+      "/tmp/test_move.txt"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures/files/file_alpha.txt",
+      "/tmp/test_move.txt"
+    ],
+    "tier": "tier1",
+    "scenario_id": "tier1_78dd51e936",
+    "metadata": {}
+  },
+  {
+    "command": "mv",
+    "options": [
+      "-v",
+      "/opt/coreutils-fixtures/files/file_alpha.txt",
+      "/tmp/test_move.txt"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures/files/file_numbers.txt",
+      "/tmp/test_move2.txt"
+    ],
+    "tier": "tier1",
+    "scenario_id": "tier1_41de80b2e3",
+    "metadata": {}
+  },
+  {
+    "command": "mv",
+    "options": [
+      "-i",
+      "/opt/coreutils-fixtures/files/file_numbers.txt",
+      "/tmp/test_move2.txt"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures/files/file_alpha.txt",
+      "/tmp/test_move.txt"
+    ],
+    "tier": "tier1",
+    "scenario_id": "tier1_f8d649cdf0",
+    "metadata": {}
+  },
+  {
+    "command": "mv",
+    "options": [
+      "-i",
+      "/opt/coreutils-fixtures/files/file_numbers.txt",
+      "/tmp/test_move2.txt"
+    ],
+    "args": [
+      "/opt/coreutils-fixtures/files/file_numbers.txt",
+      "/tmp/test_move2.txt"
+    ],
+    "tier": "tier1",
+    "scenario_id": "tier1_e423d9eeb6",
+    "metadata": {}
+  }
+]

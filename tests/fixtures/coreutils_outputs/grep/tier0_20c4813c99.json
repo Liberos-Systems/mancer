@@ -1,0 +1,24 @@
+{
+  "command": "grep",
+  "tier": "tier0",
+  "scenario_id": "tier0_20c4813c99",
+  "options": [
+    "-G"
+  ],
+  "args": [
+    "line",
+    "/opt/coreutils-fixtures/files/file_numbers.txt"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "grep -G line /opt/coreutils-fixtures/files/file_numbers.txt",
+  "result": {
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "",
+    "duration_ms": 492.3155099995711
+  },
+  "generated_at": "2026-01-21T06:55:21.482127Z"
+}

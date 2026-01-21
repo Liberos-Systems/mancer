@@ -1,0 +1,24 @@
+{
+  "command": "ls",
+  "tier": "tier1",
+  "scenario_id": "tier1_26eb1d2452",
+  "options": [
+    "-l",
+    "-a"
+  ],
+  "args": [
+    "/opt/coreutils-fixtures/files/hidden"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "ls -l -a /opt/coreutils-fixtures/files/hidden",
+  "result": {
+    "exit_code": 0,
+    "stdout": "total 12\ndrwxr-xr-x 2 root root 4096 Jan  1  2024 .\ndrwxr-xr-x 5 root root 4096 Jan  1  2024 ..\n-rw-r--r-- 1 root root    7 Jan  1  2024 .secret\n",
+    "stderr": "",
+    "duration_ms": 508.8289440000153
+  },
+  "generated_at": "2026-01-21T06:54:48.410678Z"
+}

@@ -1,0 +1,252 @@
+defaults:
+  working_dir: /opt/coreutils-fixtures/files
+  tiers_enabled:
+    - tier0
+    - tier1
+    - tier2
+    - tier3
+  arguments:
+    - []
+  error_arguments: []
+  popular_options: []
+  max_full_combination_options: 6
+
+commands:
+  - name: ls
+    arguments:
+      - []
+      - [/opt/coreutils-fixtures/files]
+      - [/opt/coreutils-fixtures/files/hidden]
+    error_arguments:
+      - [/opt/coreutils-fixtures/does_not_exist]
+    popular_options:
+      - [-l]
+      - [-a]
+      - [-l, -a]
+      - [-l, -h]
+    allowed_options:
+      - -l
+      - -a
+      - -h
+      - -t
+      - -r
+      - -1
+      - --color
+      - --sort
+      - --time
+      - --time-style
+      - --format
+      - --quoting-style
+      - --indicator-style
+      - --block-size
+  - name: cat
+    arguments:
+      - [/opt/coreutils-fixtures/files/file_alpha.txt]
+      - [/opt/coreutils-fixtures/files/file_numbers.txt]
+    error_arguments:
+      - [/opt/coreutils-fixtures/files/missing.txt]
+    popular_options:
+      - [-n]
+    allowed_options:
+      - -n
+      - -b
+  - name: echo
+    arguments:
+      - ["Mancer generator coreutils"]
+    popular_options:
+      - [-n]
+      - ["--help"]
+    allowed_options:
+      - -n
+  - name: wc
+    arguments:
+      - [/opt/coreutils-fixtures/files/file_numbers.txt]
+    popular_options:
+      - [-l]
+      - [-w]
+    allowed_options:
+      - -l
+      - -w
+      - -c
+      - -m
+  - name: grep
+    arguments:
+      - ["pattern", /opt/coreutils-fixtures/files/file_alpha.txt]
+      - ["line", /opt/coreutils-fixtures/files/file_numbers.txt]
+    error_arguments:
+      - ["missing", /opt/coreutils-fixtures/files/missing.txt]
+    popular_options:
+      - [-i, "pattern", /opt/coreutils-fixtures/files/file_alpha.txt]
+      - [-n, "line", /opt/coreutils-fixtures/files/file_numbers.txt]
+    allowed_options:
+      - -i
+      - -n
+      - -v
+      - -w
+      - -c
+  - name: sort
+    arguments:
+      - [/opt/coreutils-fixtures/files/file_numbers.txt]
+      - [/opt/coreutils-fixtures/files/file_alpha.txt]
+    popular_options:
+      - [-r, /opt/coreutils-fixtures/files/file_numbers.txt]
+      - [-u, /opt/coreutils-fixtures/files/file_alpha.txt]
+    allowed_options:
+      - -r
+      - -u
+      - -n
+  - name: uniq
+    arguments:
+      - [/opt/coreutils-fixtures/files/file_numbers.txt]
+      - [/opt/coreutils-fixtures/files/file_alpha.txt]
+    popular_options:
+      - [-c, /opt/coreutils-fixtures/files/file_alpha.txt]
+      - [-d, /opt/coreutils-fixtures/files/file_alpha.txt]
+    allowed_options:
+      - -c
+      - -d
+      - -u
+  - name: head
+    arguments:
+      - [/opt/coreutils-fixtures/files/file_numbers.txt]
+      - [/opt/coreutils-fixtures/files/file_alpha.txt]
+    popular_options:
+      - [-n, "10", /opt/coreutils-fixtures/files/file_numbers.txt]
+    allowed_options:
+      - -n
+      - -c
+  - name: tail
+    arguments:
+      - [/opt/coreutils-fixtures/files/file_numbers.txt]
+      - [/opt/coreutils-fixtures/files/file_alpha.txt]
+    popular_options:
+      - [-n, "10", /opt/coreutils-fixtures/files/file_numbers.txt]
+    allowed_options:
+      - -n
+      - -c
+  - name: hostname
+    arguments:
+      - []
+    error_arguments: []
+    popular_options:
+      - []
+    allowed_options:
+      - -i
+      - -I
+      - -s
+      - -f
+  - name: ps
+    arguments:
+      - []
+    error_arguments: []
+    popular_options:
+      - [-e]
+      - [-f]
+      - [-u, "root"]
+    allowed_options:
+      - -e
+      - -f
+      - -u
+      - -p
+      - -C
+  - name: find
+    arguments:
+      - [/opt/coreutils-fixtures/files]
+      - [/opt/coreutils-fixtures]
+    error_arguments:
+      - [/nonexistent]
+    popular_options:
+      - [/opt/coreutils-fixtures/files, -name, "*.txt"]
+      - [/opt/coreutils-fixtures/files, -type, f]
+    allowed_options:
+      - -name
+      - -type
+      - -exec
+      - -maxdepth
+  - name: df
+    arguments:
+      - []
+      - [/opt/coreutils-fixtures]
+    error_arguments: []
+    popular_options:
+      - [-h]
+      - [-T]
+    allowed_options:
+      - -h
+      - -T
+      - -i
+      - -k
+  - name: cp
+    arguments:
+      - [/opt/coreutils-fixtures/files/file_alpha.txt, /tmp/test_copy.txt]
+      - [/opt/coreutils-fixtures/files/file_numbers.txt, /tmp/test_copy2.txt]
+    error_arguments:
+      - [/nonexistent, /tmp/test.txt]
+    popular_options:
+      - [-v, /opt/coreutils-fixtures/files/file_alpha.txt, /tmp/test_copy.txt]
+      - [-r, /opt/coreutils-fixtures/files, /tmp/test_dir]
+    allowed_options:
+      - -v
+      - -r
+      - -i
+      - -f
+      - -p
+  - name: mkdir
+    arguments:
+      - [/tmp/test_dir1]
+      - [/tmp/test_dir2]
+    error_arguments:
+      - [/root/test_dir]
+    popular_options:
+      - [-p, /tmp/test_dir/subdir]
+      - [-v, /tmp/test_dir3]
+    allowed_options:
+      - -p
+      - -v
+      - -m
+  - name: mv
+    arguments:
+      - [/opt/coreutils-fixtures/files/file_alpha.txt, /tmp/test_move.txt]
+      - [/opt/coreutils-fixtures/files/file_numbers.txt, /tmp/test_move2.txt]
+    error_arguments:
+      - [/nonexistent, /tmp/test.txt]
+    popular_options:
+      - [-v, /opt/coreutils-fixtures/files/file_alpha.txt, /tmp/test_move.txt]
+      - [-i, /opt/coreutils-fixtures/files/file_numbers.txt, /tmp/test_move2.txt]
+    allowed_options:
+      - -v
+      - -i
+      - -f
+      - -b
+  - name: rm
+    arguments:
+      - [/tmp/test_file1.txt]
+      - [/tmp/test_file2.txt]
+    error_arguments:
+      - [/nonexistent]
+    popular_options:
+      - [-v, /tmp/test_file1.txt]
+      - [-r, /tmp/test_dir]
+      - [-f, /tmp/test_file2.txt]
+    allowed_options:
+      - -v
+      - -r
+      - -f
+      - -i
+  - name: touch
+    arguments:
+      - [/tmp/test_file1.txt]
+      - [/tmp/test_file2.txt]
+    error_arguments:
+      - [/root/test_file.txt]
+    popular_options:
+      - [-c, /tmp/test_file1.txt]
+      - [-a, /tmp/test_file2.txt]
+      - [-m, /tmp/test_file1.txt]
+    allowed_options:
+      - -a
+      - -m
+      - -c
+      - -r
+
+

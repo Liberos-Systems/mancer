@@ -1,0 +1,8 @@
+default:
+  name: docker-coreutils
+  dockerfile_path: docker/coreutils-test/Dockerfile
+  image_tag: mancer/coreutils-test:latest
+  run_workdir: /opt/coreutils-fixtures/files
+  locale: C.UTF-8
+
+

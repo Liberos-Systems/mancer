@@ -1,0 +1,23 @@
+{
+  "command": "touch",
+  "tier": "tier0",
+  "scenario_id": "tier0_94fad8c515",
+  "options": [
+    "--no-dereference"
+  ],
+  "args": [
+    "/tmp/test_file1.txt"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "touch --no-dereference /tmp/test_file1.txt",
+  "result": {
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "touch: setting times of '/tmp/test_file1.txt': No such file or directory\n",
+    "duration_ms": 653.7476570010767
+  },
+  "generated_at": "2026-01-21T11:18:12.305248Z"
+}

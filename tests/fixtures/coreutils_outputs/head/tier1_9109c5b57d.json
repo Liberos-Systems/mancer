@@ -1,0 +1,26 @@
+{
+  "command": "head",
+  "tier": "tier1",
+  "scenario_id": "tier1_9109c5b57d",
+  "options": [
+    "-n",
+    "10",
+    "10",
+    "/opt/coreutils-fixtures/files/file_numbers.txt"
+  ],
+  "args": [
+    "/opt/coreutils-fixtures/files/file_alpha.txt"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "head -n 10 10 /opt/coreutils-fixtures/files/file_numbers.txt /opt/coreutils-fixtures/files/file_alpha.txt",
+  "result": {
+    "exit_code": 1,
+    "stdout": "==> /opt/coreutils-fixtures/files/file_numbers.txt <==\none\ntwo\nthree\nfour\nfive\n\n==> /opt/coreutils-fixtures/files/file_alpha.txt <==\nalpha\nbeta\ngamma\n",
+    "stderr": "head: cannot open '10' for reading: No such file or directory\n",
+    "duration_ms": 536.4267739996649
+  },
+  "generated_at": "2026-01-21T06:55:59.995701Z"
+}
