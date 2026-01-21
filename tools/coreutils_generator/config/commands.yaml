@@ -124,5 +124,72 @@ commands:
     allowed_options:
       - -n
       - -c
+  - name: hostname
+    arguments:
+      - []
+    error_arguments: []
+    popular_options:
+      - []
+    allowed_options:
+      - -i
+      - -I
+      - -s
+      - -f
+  - name: ps
+    arguments:
+      - []
+    error_arguments: []
+    popular_options:
+      - [-e]
+      - [-f]
+      - [-u, "root"]
+    allowed_options:
+      - -e
+      - -f
+      - -u
+      - -p
+      - -C
+  - name: find
+    arguments:
+      - [/opt/coreutils-fixtures/files]
+      - [/opt/coreutils-fixtures]
+    error_arguments:
+      - [/nonexistent]
+    popular_options:
+      - [/opt/coreutils-fixtures/files, -name, "*.txt"]
+      - [/opt/coreutils-fixtures/files, -type, f]
+    allowed_options:
+      - -name
+      - -type
+      - -exec
+      - -maxdepth
+  - name: df
+    arguments:
+      - []
+      - [/opt/coreutils-fixtures]
+    error_arguments: []
+    popular_options:
+      - [-h]
+      - [-T]
+    allowed_options:
+      - -h
+      - -T
+      - -i
+      - -k
+  - name: cp
+    arguments:
+      - [/opt/coreutils-fixtures/files/file_alpha.txt, /tmp/test_copy.txt]
+      - [/opt/coreutils-fixtures/files/file_numbers.txt, /tmp/test_copy2.txt]
+    error_arguments:
+      - [/nonexistent, /tmp/test.txt]
+    popular_options:
+      - [-v, /opt/coreutils-fixtures/files/file_alpha.txt, /tmp/test_copy.txt]
+      - [-r, /opt/coreutils-fixtures/files, /tmp/test_dir]
+    allowed_options:
+      - -v
+      - -r
+      - -i
+      - -f
+      - -p
 
 

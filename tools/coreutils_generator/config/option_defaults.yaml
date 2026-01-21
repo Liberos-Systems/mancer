@@ -40,4 +40,9 @@ commands:
   grep: {}
   sort: {}
   uniq: {}
+  hostname: {}
+  ps: {}
+  find: {}
+  df: {}
+  cp: {}
 
