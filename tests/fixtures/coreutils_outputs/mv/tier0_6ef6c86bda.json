@@ -1,0 +1,24 @@
+{
+  "command": "mv",
+  "tier": "tier0",
+  "scenario_id": "tier0_6ef6c86bda",
+  "options": [
+    "--no-clobber"
+  ],
+  "args": [
+    "/opt/coreutils-fixtures/files/file_numbers.txt",
+    "/tmp/test_move2.txt"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "mv --no-clobber /opt/coreutils-fixtures/files/file_numbers.txt /tmp/test_move2.txt",
+  "result": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "",
+    "duration_ms": 712.5047280023864
+  },
+  "generated_at": "2026-01-21T11:17:47.197668Z"
+}

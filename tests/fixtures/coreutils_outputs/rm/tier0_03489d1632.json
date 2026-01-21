@@ -1,0 +1,23 @@
+{
+  "command": "rm",
+  "tier": "tier0",
+  "scenario_id": "tier0_03489d1632",
+  "options": [
+    "--force"
+  ],
+  "args": [
+    "/tmp/test_file1.txt"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "rm --force /tmp/test_file1.txt",
+  "result": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "",
+    "duration_ms": 460.47138499852736
+  },
+  "generated_at": "2026-01-21T11:17:51.971740Z"
+}

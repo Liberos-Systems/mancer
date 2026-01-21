@@ -1,0 +1,23 @@
+{
+  "command": "mkdir",
+  "tier": "tier0",
+  "scenario_id": "tier0_9dd33cf79c",
+  "options": [
+    "--version"
+  ],
+  "args": [
+    "/tmp/test_dir2"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "mkdir --version /tmp/test_dir2",
+  "result": {
+    "exit_code": 0,
+    "stdout": "mkdir (GNU coreutils) 8.32\nCopyright (C) 2020 Free Software Foundation, Inc.\nLicense GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n\nWritten by David MacKenzie.\n",
+    "stderr": "",
+    "duration_ms": 581.1036989980494
+  },
+  "generated_at": "2026-01-21T11:17:32.660710Z"
+}

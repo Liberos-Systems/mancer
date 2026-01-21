@@ -1,0 +1,24 @@
+{
+  "command": "mv",
+  "tier": "tier0",
+  "scenario_id": "tier0_6936b01a33",
+  "options": [
+    "--force"
+  ],
+  "args": [
+    "/opt/coreutils-fixtures/files/file_numbers.txt",
+    "/tmp/test_move2.txt"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "mv --force /opt/coreutils-fixtures/files/file_numbers.txt /tmp/test_move2.txt",
+  "result": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "",
+    "duration_ms": 778.0189719996997
+  },
+  "generated_at": "2026-01-21T11:17:42.126167Z"
+}

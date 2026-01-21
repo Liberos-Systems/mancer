@@ -1,0 +1,24 @@
+{
+  "command": "mkdir",
+  "tier": "tier1",
+  "scenario_id": "tier1_38b1aba4bc",
+  "options": [
+    "-p",
+    "/tmp/test_dir/subdir"
+  ],
+  "args": [
+    "/tmp/test_dir2"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "mkdir -p /tmp/test_dir/subdir /tmp/test_dir2",
+  "result": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "",
+    "duration_ms": 668.0407790008758
+  },
+  "generated_at": "2026-01-21T11:17:33.946025Z"
+}

@@ -1,0 +1,24 @@
+{
+  "command": "mv",
+  "tier": "tier0",
+  "scenario_id": "tier0_73257a1536",
+  "options": [
+    "--interactive"
+  ],
+  "args": [
+    "/opt/coreutils-fixtures/files/file_alpha.txt",
+    "/tmp/test_move.txt"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "mv --interactive /opt/coreutils-fixtures/files/file_alpha.txt /tmp/test_move.txt",
+  "result": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "",
+    "duration_ms": 505.4463759988721
+  },
+  "generated_at": "2026-01-21T11:17:43.804082Z"
+}

@@ -1,0 +1,23 @@
+{
+  "command": "mkdir",
+  "tier": "tier0",
+  "scenario_id": "tier0_b1615ff13a",
+  "options": [
+    "-v"
+  ],
+  "args": [
+    "/tmp/test_dir2"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "mkdir -v /tmp/test_dir2",
+  "result": {
+    "exit_code": 0,
+    "stdout": "mkdir: created directory '/tmp/test_dir2'\n",
+    "stderr": "",
+    "duration_ms": 631.8536389990186
+  },
+  "generated_at": "2026-01-21T11:17:27.492479Z"
+}

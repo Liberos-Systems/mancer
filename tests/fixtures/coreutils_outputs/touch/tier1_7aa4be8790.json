@@ -1,0 +1,24 @@
+{
+  "command": "touch",
+  "tier": "tier1",
+  "scenario_id": "tier1_7aa4be8790",
+  "options": [
+    "-m",
+    "/tmp/test_file1.txt"
+  ],
+  "args": [
+    "/tmp/test_file2.txt"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "touch -m /tmp/test_file1.txt /tmp/test_file2.txt",
+  "result": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "",
+    "duration_ms": 477.81308499907027
+  },
+  "generated_at": "2026-01-21T11:18:18.749619Z"
+}

@@ -1,0 +1,23 @@
+{
+  "command": "mkdir",
+  "tier": "tier0",
+  "scenario_id": "tier0_8f37b3df46",
+  "options": [
+    "--parents"
+  ],
+  "args": [
+    "/tmp/test_dir2"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "mkdir --parents /tmp/test_dir2",
+  "result": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "",
+    "duration_ms": 585.1416229997994
+  },
+  "generated_at": "2026-01-21T11:17:26.342500Z"
+}

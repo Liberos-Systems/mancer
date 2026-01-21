@@ -1,0 +1,26 @@
+{
+  "command": "mv",
+  "tier": "tier1",
+  "scenario_id": "tier1_78dd51e936",
+  "options": [
+    "-v",
+    "/opt/coreutils-fixtures/files/file_alpha.txt",
+    "/tmp/test_move.txt"
+  ],
+  "args": [
+    "/opt/coreutils-fixtures/files/file_alpha.txt",
+    "/tmp/test_move.txt"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "mv -v /opt/coreutils-fixtures/files/file_alpha.txt /tmp/test_move.txt /opt/coreutils-fixtures/files/file_alpha.txt /tmp/test_move.txt",
+  "result": {
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "mv: target '/tmp/test_move.txt' is not a directory\n",
+    "duration_ms": 489.8724940030661
+  },
+  "generated_at": "2026-01-21T11:17:47.689996Z"
+}

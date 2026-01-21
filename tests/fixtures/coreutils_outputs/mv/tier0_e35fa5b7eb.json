@@ -1,0 +1,24 @@
+{
+  "command": "mv",
+  "tier": "tier0",
+  "scenario_id": "tier0_e35fa5b7eb",
+  "options": [
+    "--backup"
+  ],
+  "args": [
+    "/opt/coreutils-fixtures/files/file_numbers.txt",
+    "/tmp/test_move2.txt"
+  ],
+  "metadata": {
+    "option_source": "man"
+  },
+  "environment": "docker-coreutils",
+  "full_command": "mv --backup /opt/coreutils-fixtures/files/file_numbers.txt /tmp/test_move2.txt",
+  "result": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "",
+    "duration_ms": 695.0598279981932
+  },
+  "generated_at": "2026-01-21T11:17:38.495488Z"
+}
