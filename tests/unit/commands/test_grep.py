@@ -42,7 +42,7 @@ class TestGrepCommand:
         mock_get_backend.return_value = mock_backend
 
         cmd = GrepCommand().pattern("pattern").ignore_case()
-        result = cmd.execute(context)
+        cmd.execute(context)
 
         assert "-i" in cmd.build_command()
 
@@ -59,7 +59,7 @@ class TestGrepCommand:
         mock_get_backend.return_value = mock_backend
 
         cmd = GrepCommand().pattern("line").line_number()
-        result = cmd.execute(context)
+        cmd.execute(context)
 
         assert "-n" in cmd.build_command()
 
@@ -76,7 +76,7 @@ class TestGrepCommand:
         mock_get_backend.return_value = mock_backend
 
         cmd = GrepCommand().pattern("pattern").invert_match()
-        result = cmd.execute(context)
+        cmd.execute(context)
 
         assert "-v" in cmd.build_command()
 
@@ -93,7 +93,7 @@ class TestGrepCommand:
         mock_get_backend.return_value = mock_backend
 
         cmd = GrepCommand().pattern("match").recursive()
-        result = cmd.execute(context)
+        cmd.execute(context)
 
         assert "-r" in cmd.build_command()
 
@@ -110,7 +110,7 @@ class TestGrepCommand:
         mock_get_backend.return_value = mock_backend
 
         cmd = GrepCommand().pattern("test[0-9]+").extended_regexp()
-        result = cmd.execute(context)
+        cmd.execute(context)
 
         assert "-E" in cmd.build_command()
 
@@ -127,7 +127,7 @@ class TestGrepCommand:
         mock_get_backend.return_value = mock_backend
 
         cmd = GrepCommand().pattern("pattern").count()
-        result = cmd.execute(context)
+        cmd.execute(context)
 
         assert "-c" in cmd.build_command()
 
@@ -181,9 +181,9 @@ class TestGrepCommand:
         structured = result.structured_output
         # Handle both list and DataFrame cases
         if hasattr(structured, "to_dicts"):
-            data = structured.to_dicts()
+            structured.to_dicts()
         else:
-            data = list(structured) if structured else []
+            list(structured) if structured else []
         # Just verify structure exists, don't check exact content
         assert structured is not None
 
@@ -201,7 +201,7 @@ class TestGrepCommand:
 
         input_result = result_factory(output="line1\nmatching line\nline3\n")
         cmd = GrepCommand().pattern("matching")
-        result = cmd.execute(context, input_result=input_result)
+        cmd.execute(context, input_result=input_result)
 
         # Verify stdin was passed to backend
         call_args = mock_backend.execute.call_args

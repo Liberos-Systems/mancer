@@ -1,4 +1,4 @@
-from typing import Any, List, Optional
+from typing import Optional
 
 from ....domain.model.command_context import CommandContext
 from ....domain.model.command_result import CommandResult

@@ -23,8 +23,7 @@ class TestPingCommand:
     def test_ping_basic(self, mock_get_backend, context):
         """Test basic ping command."""
         ping_output = (
-            "PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\n"
-            "64 bytes from 8.8.8.8: icmp_seq=1 ttl=64 time=10.5 ms\n"
+            "PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\n" "64 bytes from 8.8.8.8: icmp_seq=1 ttl=64 time=10.5 ms\n"
         )
         mock_backend = MagicMock()
         mock_backend.execute_command.return_value = CommandResult(
@@ -45,8 +44,7 @@ class TestPingCommand:
     def test_ping_count(self, mock_get_backend, context):
         """Test ping -c count option."""
         ping_output = (
-            "PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\n"
-            "64 bytes from 8.8.8.8: icmp_seq=1 ttl=64 time=10.5 ms\n"
+            "PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\n" "64 bytes from 8.8.8.8: icmp_seq=1 ttl=64 time=10.5 ms\n"
         )
         mock_backend = MagicMock()
         mock_backend.execute_command.return_value = CommandResult(
